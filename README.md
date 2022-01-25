@@ -23,7 +23,7 @@
 <img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" /> &nbsp;
 
 ### Statistics:
-<img src="https://github-readme-stats.vercel.app/api?username=ervikassingh&&show_icons=true&title_color=ffffff&icon_color=68f23a&text_color=fff940&bg_color=403e3e" />
+<img width="500" src="https://github-readme-stats.vercel.app/api?username=ervikassingh&&show_icons=true&title_color=ededed&icon_color=7ed461&text_color=e6e149&bg_color=403e3e" />
 
 ### Spotify Playing:
-[<img src="https://spotify-now-playing-ervikassingh.vercel.app/api/spotify/?background_color=403e3e&border_color=403e3e" />](https://open.spotify.com/user/oluvwymx1n559evcd3csfvopf)
+[<img width="500" src="https://spotify-now-playing-ervikassingh.vercel.app/api/spotify/?background_color=403e3e&border_color=403e3e" />](https://open.spotify.com/user/oluvwymx1n559evcd3csfvopf)
