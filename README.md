@@ -1,12 +1,12 @@
-### Hi this is Vikas 👋
+## Hi this is Vikas 👋
 - 🔭 I’m currently working on Ethereum Blockchain based Projects.
 - 🌱 I’m currently learning Solidity, Ethers, Hardhat and Rarible Protocol.
 - 💬 Ask me about - React and Basics in DeFi Space.
 
 ### Connect with me:
-[<img height="32" width="32" src="https://unpkg.com/simple-icons@v6/icons/gmail.svg" />](mailto:mail.ervikassingh@gmail.com) &nbsp;
-[<img height="32" width="32" src="https://unpkg.com/simple-icons@v6/icons/linkedin.svg" />](https://www.linkedin.com/in/ervikassingh/) &nbsp;
-[<img height="32" width="32" src="https://unpkg.com/simple-icons@v6/icons/instagram.svg" />](https://www.instagram.com/wiekee.singh/) &nbsp;
+[<img height="34" width="34" src="https://unpkg.com/simple-icons@v6/icons/gmail.svg" />](mailto:mail.ervikassingh@gmail.com) &nbsp; &nbsp;
+[<img height="34" width="34" src="https://unpkg.com/simple-icons@v6/icons/linkedin.svg" />](https://www.linkedin.com/in/ervikassingh/) &nbsp; &nbsp;
+[<img height="34" width="34" src="https://unpkg.com/simple-icons@v6/icons/instagram.svg" />](https://www.instagram.com/wiekee.singh/) &nbsp; &nbsp;
 
 ### Languages and Tools:
 <img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ethereum/ethereum.png" /> &nbsp;
