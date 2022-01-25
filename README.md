@@ -26,4 +26,4 @@
 <img src="https://github-readme-stats.vercel.app/api?username=ervikassingh&&show_icons=true&title_color=ffffff&icon_color=68f23a&text_color=fff940&bg_color=403e3e" />
 
 ### Spotify Playing:
-[<img src="https://spotify-now-playing-ervikassingh.vercel.app/api/spotify/?background_color=403e3e&border_color=000000" />](https://open.spotify.com/user/oluvwymx1n559evcd3csfvopf)
+[<img src="https://spotify-now-playing-ervikassingh.vercel.app/api/spotify/?background_color=403e3e&border_color=403e3e" />](https://open.spotify.com/user/oluvwymx1n559evcd3csfvopf)
