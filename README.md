@@ -6,7 +6,7 @@
 ### Connect with me:
 [<img height="33" width="33" src="https://unpkg.com/simple-icons@v6/icons/gmail.svg" />](mailto:mail.ervikassingh@gmail.com) &nbsp; &nbsp;
 [<img height="33" width="33" src="https://unpkg.com/simple-icons@v6/icons/linkedin.svg" />](https://www.linkedin.com/in/ervikassingh/) &nbsp; &nbsp;
-[<img height="33" width="33" src="https://unpkg.com/simple-icons@v6/icons/instagram.svg" />](https://www.instagram.com/wiekee.singh/) &nbsp; &nbsp;
+[<img height="33" width="33" src="https://unpkg.com/simple-icons@v6/icons/instagram.svg" />](https://www.instagram.com/_wiekee_/) &nbsp; &nbsp;
 
 ### Languages and Tools:
 <img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ethereum/ethereum.png" /> &nbsp;
