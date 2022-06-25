@@ -24,8 +24,34 @@
 <img height="35" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" /> &nbsp;
 
 ### Statistics:
-<img width="500" src="https://github-readme-stats.vercel.app/api?username=ervikassingh&&show_icons=true&title_color=e67c00&icon_color=489a2b&text_color=161616" />
-<img width="500" src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&" alt="ervikassingh" />
+<p>
+  <a href="https://github.com/ervikassingh?tab=repositories&sort=stargazers">
+      <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/ervikassingh"/>
+  </a>
+  <a href="https://github.com/ervikassingh?tab=followers">
+      <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.herokuapp.com/github/followers/ervikassingh?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
+  </a>
+  <a href="https://github.com/ervikassingh">
+      <img alt="views" title="GitHub profile views" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=ervikassingh&style=for-the-badge"/>  </a>
+</p>
+
+<p>
+  <a href="https://github.com/ervikassingh/github-readme-streak-stats">
+      <img width="500" src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=monokai-metallian&hide_border=true"/>
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/ervikassingh/github-readme-stats">
+      <img width="500" src="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=vision-friendly-dark" />
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/ervikassingh/github-readme-stats">
+    <img width="500" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&theme=vision-friendly-dark" />
+  </a>
+</p>
 
 ### Spotify Playing:
 [<img width="500" src="https://spotify-now-playing-ervikassingh.vercel.app/api/spotify/?background_color=403e3e&border_color=f7f7f7" />](https://open.spotify.com/user/oluvwymx1n559evcd3csfvopf)
