@@ -1,7 +1,7 @@
 ## Hi, this is Vikas <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="25px" height="25px"/>
-- 🔭 I’m currently working on **Ethereum Blockchain** based Projects.
-- 🌱 I’m currently learning **Solidity**, **Ethers**, **Hardhat**, **Uniswap**, **Rarible** and **Wyvern Protocol**.
-- 💬 Ask me about - **React.js**, **React Native**, **Node.js** and **Web3**.
+- 🔭 I’m currently working on **Ethereum Blockchain** and **Ethereum L2 Chains** based Projects.
+- 🌱 I’m currently learning **The Graph Protocol** and **Seaport Protocol**.
+- 💬 Ask me about - **React.js**, **React Native**, **Node.js**, **Solidity**, **Ethers**, **Hardhat**, **Uniswap** and **Wyvern Protocol**.
 
 ### Connect with me:
 <p align="center">
