@@ -63,6 +63,6 @@
 ### Spotify Playing:
 <p align="center">
   <a href="https://open.spotify.com/user/oluvwymx1n559evcd3csfvopf">
-    <img width="500" src="https://spotify-now-playing-ervikassingh.vercel.app/api/spotify/?background_color=403e3e&border_color=f7f7f7" />
+    <img width="500" src="https://spotify-now-playing-ervikassingh.vercel.app/api/spotify/?background_color=403e3e" />
   </a>
 </p>
