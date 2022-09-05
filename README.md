@@ -18,19 +18,17 @@
 
 ### Languages and Tools:
 <p align="center">
-<img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ethereum/ethereum.png" /> &nbsp;
-<img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /> &nbsp;
-<img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" /> &nbsp;
-<img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /> &nbsp;
-<img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" /> &nbsp;
-<img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png" /> &nbsp;
-<img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" /> &nbsp;
-<img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" /> &nbsp;
-<img height="35" width="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" /> &nbsp;
-<img height="35" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" /> &nbsp;
-<img height="35" width="35" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" /> &nbsp;
-<img height="35" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" /> &nbsp;
-<img height="35" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" /> &nbsp;
+<img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ethereum/ethereum.png" /> &nbsp;
+<img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /> &nbsp;
+<img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" /> &nbsp;
+<img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" /> &nbsp;
+<img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png" /> &nbsp;
+<img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" /> &nbsp;
+<img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" /> &nbsp;
+<img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" /> &nbsp;
+<img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" /> &nbsp;
+<img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" /> &nbsp;
+<img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png" /> &nbsp;
 </p>
 
 ### Statistics:
@@ -42,27 +40,28 @@
       <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.herokuapp.com/github/followers/ervikassingh?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
   </a>
   <a href="https://github.com/ervikassingh">
-      <img alt="views" title="GitHub profile views" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=ervikassingh&style=for-the-badge"/>  </a>
+      <img alt="views" title="GitHub profile views" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=ervikassingh&style=for-the-badge"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ervikassingh/github-readme-stats">
+    <img width="500" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&theme=yeblu&hide_border=true&hide=jupyter%20notebook" />
+  </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/ervikassingh/github-readme-streak-stats">
-      <img width="500" src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ervikassingh/github-readme-stats">
-      <img width="500" src="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu" />
+      <img width="500" src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&hide_border=true"/>
   </a>
   <a href="https://github.com/ervikassingh/github-readme-stats">
-    <img width="500" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&theme=yeblu&hide=jupyter%20notebook" />
+      <img width="500" src="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true" />
   </a>
 </p>
 
 ### Spotify Playing:
 <p align="center">
   <a href="https://open.spotify.com/user/oluvwymx1n559evcd3csfvopf">
-    <img width="500" src="https://spotify-now-playing-ervikassingh.vercel.app/api/spotify/?background_color=403e3e" />
+    <img width="500" src="https://spotify-now-playing-ervikassingh.vercel.app/api/spotify/?background_color=204600&border_color=204600" />
   </a>
 </p>
