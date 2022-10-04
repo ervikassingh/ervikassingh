@@ -45,16 +45,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ervikassingh/github-readme-stats">
+  <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&theme=yeblu&hide_border=true&hide=jupyter%20notebook">
     <img width="500" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&theme=yeblu&hide_border=true&hide=jupyter%20notebook" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/ervikassingh/github-readme-streak-stats">
+  <a href="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&hide_border=true">
       <img width="500" src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&hide_border=true"/>
   </a>
-  <a href="https://github.com/ervikassingh/github-readme-stats">
+  <a href="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true">
       <img width="500" src="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true" />
   </a>
 </p>
