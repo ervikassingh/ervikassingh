@@ -54,9 +54,9 @@
   <a href="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&hide_border=true">
       <img width="500" src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&hide_border=true"/>
   </a>
-  <a href="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true">
+  <!---<a href="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true">
       <img width="500" src="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true" />
-  </a>
+  </a>--->
 </p>
 
 ### Spotify Playing:
