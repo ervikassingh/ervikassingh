@@ -18,7 +18,7 @@
 
 ### Languages and Tools:
 <p align="center">
-<img height="50" width="50" src="https://avatars.githubusercontent.com/u/6250754?s=200&v=4" /> &nbsp;
+<img height="45" width="45" src="https://avatars.githubusercontent.com/u/6250754?s=200&v=4" /> &nbsp;
 <img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /> &nbsp;
 <img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" /> &nbsp;
 <img height="45" width="45" src="https://avatars.githubusercontent.com/u/9950313?s=200&v=4" /> &nbsp;
@@ -27,11 +27,12 @@
 <img height="45" width="45" src="https://avatars.githubusercontent.com/u/45120?s=200&v=4" /> &nbsp;
 <img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" /> &nbsp;
 <img height="45" width="45" src="https://avatars.githubusercontent.com/u/177543?s=200&v=4" /> &nbsp;
+<img height="45" width="45" src="https://avatars.githubusercontent.com/u/1529926?s=200&v=4" /> &nbsp;
 <img height="45" width="45" src="https://avatars.githubusercontent.com/u/96669?s=200&v=4" /> &nbsp;
 <img height="45" width="45" src="https://avatars.githubusercontent.com/u/47359?s=200&v=4" /> &nbsp;
+<img height="45" width="45" src="https://avatars.githubusercontent.com/u/7802525?s=200&v=4" /> &nbsp;
 <img height="45" width="45" src="https://avatars.githubusercontent.com/u/5429470?s=200&v=4" /> &nbsp;
 <img height="45" width="45" src="https://avatars.githubusercontent.com/u/13629408?s=200&v=4" /> &nbsp;
-<img height="45" width="45" src="https://avatars.githubusercontent.com/u/7802525?s=200&v=4" /> &nbsp;
 <img height="45" width="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png" /> &nbsp;
 </p>
 
