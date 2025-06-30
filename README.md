@@ -4,17 +4,16 @@
 - 💬 Ask me about - **NodeJS**, **NestJS**, **Solidity**, **Ethers**, **Hardhat**, **NFTs**, **DAOs**, **DeFi**, **Web 3 Protocols**, etc.
 
 ### Connect with me:
-<p>
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<p align="center">
   <a href="mailto:mail.ervikassingh@gmail.com">
     <img height="33" width="33" src="https://unpkg.com/simple-icons@v6/icons/gmail.svg" />
   </a> &nbsp; &nbsp;
   <a href="https://www.linkedin.com/in/ervikassingh/">
     <img height="33" width="33" src="https://unpkg.com/simple-icons@v6/icons/linkedin.svg" />
   </a> &nbsp; &nbsp;
-  <a href="https://www.instagram.com/_wiekee_/">
+  <a href="https://www.instagram.com/wiekki/">
     <img height="33" width="33" src="https://unpkg.com/simple-icons@v6/icons/instagram.svg" />
-  </a> &nbsp; &nbsp;
+  </a>
 </p>
 
 ### Languages and Tools:
@@ -43,11 +42,11 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ervikassingh&theme=yeblu&count_private=true&show_icons=true&hide_border=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&count_private=true&show_icons=true&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&count_private=true&show_icons=true&hide_border=true"/>
 </p>
 <p align="center">
-  <img width="450" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&theme=yeblu&layout=compact&hide_border=true&hide=jupyter%20notebook" />
+  <img width="450" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&hide_border=true&hide=jupyter%20notebook" />
 </p>
 
 <p align="center">
