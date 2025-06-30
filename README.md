@@ -44,25 +44,23 @@
   <a href="https://github.com/ervikassingh?tab=followers">
       <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.herokuapp.com/github/followers/ervikassingh?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
   </a>
-  <!--<a href="https://github.com/ervikassingh">
-      <img alt="views" title="GitHub profile views" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=ervikassingh&style=for-the-badge"/>
-  </a>-->
 </p>
 
 <p align="center">
-  <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&theme=yeblu&hide_border=true&hide=jupyter%20notebook">
-    <img width="500" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&theme=yeblu&hide_border=true&hide=jupyter%20notebook" />
+  <a href="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true">
+      <img width="450" src="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true" />
   </a>
 </p>
-
-<!--<p align="center">
+<p align="center">
   <a href="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&hide_border=true">
-      <img width="500" src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&hide_border=true"/>
+      <img width="450" src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&hide_border=true"/>
   </a>
-  <a href="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true">
-      <img width="500" src="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true" />
+</p>
+<p align="center">
+  <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&theme=yeblu&hide_border=true&hide=jupyter%20notebook">
+    <img width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&theme=yeblu&hide_border=true&hide=jupyter%20notebook" />
   </a>
-</p>-->
+</p>
 
 <!--### Spotify Playing:
 <p align="center">
