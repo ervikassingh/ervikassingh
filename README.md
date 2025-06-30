@@ -4,7 +4,8 @@
 - 💬 Ask me about - **NodeJS**, **NestJS**, **Solidity**, **Ethers**, **Hardhat**, **NFTs**, **DAOs**, **DeFi**, **Web 3 Protocols**, etc.
 
 ### Connect with me:
-<p align="center">
+<p>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
   <a href="mailto:mail.ervikassingh@gmail.com">
     <img height="33" width="33" src="https://unpkg.com/simple-icons@v6/icons/gmail.svg" />
   </a> &nbsp; &nbsp;
@@ -38,28 +39,19 @@
 
 ### Statistics:
 <p align="center">
-  <a href="https://github.com/ervikassingh?tab=repositories&sort=stargazers">
-      <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/ervikassingh"/>
-  </a>
-  <a href="https://github.com/ervikassingh?tab=followers">
-      <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.herokuapp.com/github/followers/ervikassingh?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=ervikassingh&count_private=true&no-frame=true" />
 </p>
 
 <p align="center">
-  <a href="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true">
-      <img width="450" src="https://github-readme-stats.vercel.app/api?username=ervikassingh&count_private=true&show_icons=true&theme=yeblu&hide_border=true" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=ervikassingh&theme=yeblu&count_private=true&show_icons=true&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&count_private=true&show_icons=true&hide_border=true"/>
 </p>
 <p align="center">
-  <a href="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&hide_border=true">
-      <img width="450" src="https://github-readme-streak-stats.herokuapp.com/?user=ervikassingh&theme=yeblu&hide_border=true"/>
-  </a>
+  <img width="450" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&theme=yeblu&layout=compact&hide_border=true&hide=jupyter%20notebook" />
 </p>
+
 <p align="center">
-  <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&theme=yeblu&hide_border=true&hide=jupyter%20notebook">
-    <img width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&layout=compact&theme=yeblu&hide_border=true&hide=jupyter%20notebook" />
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ervikassingh&theme=github-compact&hide_border=true" />
 </p>
 
 <!--### Spotify Playing:
