@@ -53,7 +53,7 @@
   </tr>
   <tr>
     <td colspan="2">
-      <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&theme=yeblu&hide_border=false&include_all_commits=true&count_private=true&layout=compact&hide=jupyter%20notebook" alt="Github Top Langs" title="Github Top Langs"/> 
+      <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&theme=yeblu&hide_border=false&include_all_commits=true&count_private=true&layout=compact&hide=jupyter%20notebook" alt="Github Top Langs" title="Github Top Langs"/> 
     </td>
   </tr>
 </table>
