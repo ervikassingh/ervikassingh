@@ -45,15 +45,15 @@
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=ervikassingh&theme=yeblu&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" title="Github Stats"/>  
+      <img src="https://github-readme-stats.vercel.app/api?username=ervikassingh&theme=yeblu&hide_border=false&include_all_commits=true" alt="GitHub Stats" title="Github Stats"/>  
     </td>
     <td>
-      <img src="https://nirzak-streak-stats.vercel.app/?user=ervikassingh&theme=yeblu&hide_border=false" alt="Github Streak" title="Github Streak"/> 
+      <img src="https://nirzak-streak-stats.vercel.app/api?user=ervikassingh&theme=yeblu&hide_border=false" alt="Github Streak" title="Github Streak"/> 
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&theme=yeblu&hide_border=false&include_all_commits=true&count_private=true&layout=compact&hide=jupyter%20notebook" alt="Github Top Langs" title="Github Top Langs"/> 
+      <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ervikassingh&theme=yeblu&hide_border=false&include_all_commits=true&layout=compact&hide=jupyter%20notebook" alt="Github Top Langs" title="Github Top Langs"/> 
     </td>
   </tr>
 </table>
