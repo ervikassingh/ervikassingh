@@ -53,10 +53,3 @@
 ### Trophies:
 | <img src="https://github-profile-trophy.vercel.app/?username=ervikassingh&theme=algolia&no-frame=true&no-bg=false&margin-w=4&column=6" alt="Github Trophies" title="Github Trophies"/> |
 | ------------- |
-
-<!--### Spotify Playing:
-<p align="center">
-  <a href="https://open.spotify.com/user/oluvwymx1n559evcd3csfvopf">
-    <img width="500" src="https://spotify-now-playing-ervikassingh.vercel.app/api/spotify/?background_color=204600&border_color=204600" />
-  </a>
-</p>-->
