@@ -5,7 +5,7 @@
 
 ### Connect with me:
 [![email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mail.ervikassingh@gmail.com) 
-[![Portfolio](https://img.shields.io/badge/Portfolio-1E3A8A.svg?style=for-the-badge&logo=portfolio&logoColor=white)](https://ervikassingh-portfolio.vercel.app/) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-1E3A8A.svg?style=for-the-badge&logo=portfolio&logoColor=white)](https://ervikassingh.com/) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ervikassingh) 
 [![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/wiekkii) 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/wiekki) 
