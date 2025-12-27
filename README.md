@@ -1,6 +1,6 @@
 ## Hi, this is Vikas <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="25px" height="25px"/>
 - 🔭 I’m currently working on **Ethereum Blockchain** and **Ethereum L2 Chains** based projects with **Nest JS** backend.
-- 🌱 I’m currently learning **Microservices with Nest JS**.
+- 🌱 I’m currently learning **Running AI Models Locally** and **RAG implementation with Local Models**.
 - 💬 Ask me about - **NodeJS**, **NestJS**, **Solidity**, **Ethers**, **Hardhat**, **NFTs**, **DAOs**, **DeFi**, **Web 3 Protocols**, etc.
 
 ### Connect with me:
