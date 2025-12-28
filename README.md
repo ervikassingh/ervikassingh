@@ -1,7 +1,7 @@
 ## Hi, this is Vikas <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="25px" height="25px"/>
-- 🔭 I’m currently working on **Ethereum Blockchain** and **Ethereum L2 Chains** based projects with **Nest JS** backend.
+- 🔭 I'm currently working on **Hedera** and its products with **NestJS** backend.
 - 🌱 I'm currently learning **Local LLMs**, **RAG**, **MCP**, **Agentic AI**, and **Vector Embeddings**.
-- 💬 Ask me about - **NodeJS**, **NestJS**, **Solidity**, **Ethers**, **Hardhat**, **NFTs**, **DAOs**, **DeFi**, **Web 3 Protocols**, etc.
+- 💬 Ask me about - **Web3**, **EVM Chains**, **DLTs**, **NestJS**, **Solidity**, **NFTs**, **DAOs**, **DeFi**.
 
 ### Connect with me:
 [![email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mail.ervikassingh@gmail.com) 
