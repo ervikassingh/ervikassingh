@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="394" viewBox="0 0 880 394" role="img" aria-label="whoami">
+
+  <rect width="880" height="394" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <text x="32" y="34" fill="#8B949E" font-size="13" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">$ whoami</text>
+  <circle cx="832" cy="28" r="5" fill="#3FB950"/>
+  <text x="842" y="32" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">ok</text>
+
+  <rect x="32" y="56" width="816" height="92" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="48" y="88" fill="#58A6FF" font-size="22" font-weight="700" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">vikas</text>
+  <text x="124" y="88" fill="#8B949E" font-size="14" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">— backend engineer (6+ years)</text>
+  <text x="48" y="112" fill="#E6EDF3" font-size="13" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">Senior Backend Engineer · NestJS, distributed systems, and agentic AI</text>
+  <text x="48" y="132" fill="#8B949E" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">Dehradun, India · open to remote · ervikassingh.com</text>
+  <rect x="32" y="160" width="402.0" height="118" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="48" y="184" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">PHILOSOPHY.TXT</text>
+  <text x="48" y="208" fill="#E6EDF3" font-size="13" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">&quot;AI is whatever hasn't been done yet.&quot;</text>
+  <text x="48" y="226" fill="#8B949E" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">— Tesler's Theorem</text>
+  <text x="48" y="244" fill="#8B949E" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">(Larry Tesler, via Hofstadter)</text>
+  <rect x="446.0" y="160" width="402.0" height="118" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="462.0" y="184" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">CURRENT_FOCUS</text>
+
+  <circle cx="467.0" cy="200" r="3.5" fill="#E0234E"/>
+  <text x="478.0" y="204" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">hedera-backends</text>
+  <circle cx="467.0" cy="218" r="3.5" fill="#58A6FF"/>
+  <text x="478.0" y="222" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">nestjs-services</text>
+  <circle cx="467.0" cy="236" r="3.5" fill="#BC8CFF"/>
+  <text x="478.0" y="240" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">agent-orchestration</text>
+  <circle cx="467.0" cy="254" r="3.5" fill="#D29922"/>
+  <text x="478.0" y="258" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">rag-evals</text>
+
+  <rect x="32.0" y="290" width="153.6" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="46.0" y="316" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">NESTJS</text>
+  <text x="46.0" y="342" fill="#58A6FF" font-size="20" font-weight="700" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">ok</text>
+  <rect x="197.6" y="290" width="153.6" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="211.6" y="316" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">AGENTS</text>
+  <text x="211.6" y="342" fill="#BC8CFF" font-size="20" font-weight="700" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">ok</text>
+  <rect x="363.2" y="290" width="153.6" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="377.2" y="316" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">RAG</text>
+  <text x="377.2" y="342" fill="#D29922" font-size="20" font-weight="700" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">ok</text>
+  <rect x="528.8" y="290" width="153.6" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="542.8" y="316" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">MCP</text>
+  <text x="542.8" y="342" fill="#3FB950" font-size="20" font-weight="700" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">ok</text>
+  <rect x="694.4" y="290" width="153.6" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="708.4" y="316" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">WEB3</text>
+  <text x="708.4" y="342" fill="#E0234E" font-size="20" font-weight="700" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">ok</text>
+</svg>
