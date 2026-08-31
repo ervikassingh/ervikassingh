@@ -199,7 +199,7 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
     extra = f" · {contrib} contribs last year" if contrib is not None else ""
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="GitHub stats for {esc(data['login'])}">
   <rect width="{width}" height="{height}" rx="12" fill="{BG}" stroke="{STROKE}"/>
-  <text x="32" y="34" fill="{MUTED}" font-size="13" font-family="{MONO}">$ gh api users/{esc(data['login'])} --stats</text>
+  <text x="32" y="34" fill="{MUTED}" font-size="13" font-family="{MONO}">$ gh stats --user={esc(data['login'])} --since=2019</text>
   <circle cx="{width - 48}" cy="28" r="5" fill="{GREEN}"/>
   <text x="{width - 38}" y="32" fill="{MUTED}" font-size="11" font-family="{SANS}">live</text>
 {''.join(tiles)}

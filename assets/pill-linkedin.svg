@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="32" viewBox="0 0 114 32" role="img" aria-label="linkedin">
+  <rect width="114" height="32" rx="8" fill="#161B22" stroke="#30363D"/>
+  <g transform="translate(10,8)" fill="none" stroke="#58A6FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1" y="1" width="14" height="14" rx="2.2" fill="#58A6FF" stroke="none"/>
+    <text x="8" y="12.2" text-anchor="middle" fill="#161B22" stroke="none" font-size="9" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">in</text>
+  </g>
+  <text x="34" y="21" fill="#58A6FF" font-size="12" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">linkedin</text>
+</svg>

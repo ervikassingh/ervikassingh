@@ -75,10 +75,10 @@ def whoami() -> str:
         f"""
   <rect x="{pad}" y="{y}" width="{inner_w}" height="{identity_h}" rx="8" fill="{PANEL}" stroke="{STROKE}"/>
   <text x="{pad + 16}" y="{y + 32}" font-family="{SANS}">
-    <tspan fill="{CYAN}" font-size="22" font-weight="700">Vikas Singh</tspan>
-    <tspan fill="{MUTED}" font-size="14">  — backend engineer (6+ years)</tspan>
+    <tspan fill="{CYAN}" font-size="22" font-weight="700">vikas singh</tspan>
+    <tspan fill="{MUTED}" font-size="14">  — Senior Backend Engineer (6+ years)</tspan>
   </text>
-  <text x="{pad + 16}" y="{y + 56}" fill="{TEXT}" font-size="13" font-family="{SANS}">Senior Backend Engineer · NestJS, distributed systems, and agentic AI</text>
+  <text x="{pad + 16}" y="{y + 56}" fill="{TEXT}" font-size="13" font-family="{SANS}">NestJS, distributed systems, and agentic AI</text>
   <text x="{pad + 16}" y="{y + 76}" fill="{MUTED}" font-size="12" font-family="{SANS}">Dehradun, India · open to remote · ervikassingh.com</text>"""
     ]
     y += identity_h + gap
@@ -120,7 +120,7 @@ def whoami() -> str:
     )
     height = y + mid_h + pad
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="whoami">
-{shell("$ whoami", W, height)}
+{shell("$ gh whoami --format=pretty --open-to=remote", W, height)}
 {''.join(parts)}
 </svg>
 """
@@ -158,7 +158,7 @@ def stack() -> str:
     rows = (len(domains) + cols - 1) // cols
     height = y0 + rows * card_h + (rows - 1) * gap + pad
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="Stack">
-{shell("$ ls ./skills --group-by=domain", W, height)}
+{shell("$ gh skills --group-by=domain --limit 6", W, height)}
 {''.join(cards)}
 </svg>
 """
@@ -188,32 +188,38 @@ def log() -> str:
             GOLD,
         ),
     ]
-    y0, row_h, card_h = 56, 96, 88
-    height = y0 + len(jobs) * row_h + 16
+    pad, rail_gap, inset = 32, 22, 18
+    rail_x = pad + 8
+    card_x = rail_x + rail_gap
+    card_w = W - card_x - pad
+    text_x = card_x + inset
+    y0, card_h, gap = 56, 100, 12
+    row_h = card_h + gap
+    height = y0 + len(jobs) * row_h - gap + pad
     mid0 = y0 + card_h / 2
     midn = y0 + (len(jobs) - 1) * row_h + card_h / 2
     parts = [
-        f'  <line x1="48" y1="{mid0:.0f}" x2="48" y2="{midn:.0f}" stroke="{STROKE}" stroke-width="2"/>'
+        f'  <line x1="{rail_x}" y1="{mid0:.0f}" x2="{rail_x}" y2="{midn:.0f}" stroke="{STROKE}" stroke-width="2"/>'
     ]
     for i, (when, title, company, blurb, color) in enumerate(jobs):
         y = y0 + i * row_h
         cy = y + card_h / 2
-        lines = wrap(blurb, 92)
+        lines = wrap(blurb, 108)
         blurb_svg = "\n".join(
-            f'  <text x="88" y="{y + 70 + j * 14}" fill="{MUTED}" font-size="11" font-family="{SANS}">{esc(line)}</text>'
+            f'  <text x="{text_x}" y="{y + 72 + j * 16}" fill="{MUTED}" font-size="12" font-family="{SANS}">{esc(line)}</text>'
             for j, line in enumerate(lines[:2])
         )
         parts.append(
             f"""
-  <circle cx="48" cy="{cy:.0f}" r="6" fill="{color}" stroke="{BG}" stroke-width="3"/>
-  <rect x="72" y="{y}" width="{W - 104}" height="{card_h}" rx="8" fill="{PANEL}" stroke="{STROKE}"/>
-  <text x="88" y="{y + 22}" fill="{MUTED}" font-size="11" font-family="{SANS}" letter-spacing="0.4">{esc(when)}</text>
-  <text x="88" y="{y + 44}" fill="{TEXT}" font-size="14" font-weight="700" font-family="{SANS}">{esc(title)}</text>
-  <text x="{W - 48}" y="{y + 44}" text-anchor="end" fill="{color}" font-size="12" font-family="{SANS}">{esc(company)}</text>
+  <circle cx="{rail_x}" cy="{cy:.0f}" r="6" fill="{color}" stroke="{BG}" stroke-width="3"/>
+  <rect x="{card_x}" y="{y}" width="{card_w}" height="{card_h}" rx="8" fill="{PANEL}" stroke="{STROKE}"/>
+  <text x="{text_x}" y="{y + 26}" fill="{MUTED}" font-size="11" font-family="{SANS}" letter-spacing="0.4">{esc(when)}</text>
+  <text x="{text_x}" y="{y + 50}" fill="{TEXT}" font-size="14" font-weight="700" font-family="{SANS}">{esc(title)}</text>
+  <text x="{W - pad - inset}" y="{y + 50}" text-anchor="end" fill="{color}" font-size="12" font-family="{SANS}">{esc(company)}</text>
 {blurb_svg}"""
         )
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="Career log">
-{shell("$ git log --author=vikas --oneline --decorate", W, height)}
+{shell("$ gh log --author=vikas --oneline --decorate", W, height)}
 {''.join(parts)}
 </svg>
 """
@@ -247,7 +253,7 @@ def work() -> str:
     rows = (len(repos) + cols - 1) // cols
     height = y0 + rows * card_h + (rows - 1) * gap + pad
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="Selected work">
-{shell("$ gh repo list ervikassingh --limit 5 --selected", W, height)}
+{shell("$ gh repos --limit 5 --filter=selected", W, height)}
 {''.join(cards)}
 </svg>
 """
@@ -276,10 +282,55 @@ def certs() -> str:
         )
     height = y0 + card_h + pad
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="Certifications">
-{shell("$ cat ./certs.json", W, height)}
+{shell("$ gh certs --json --sort=date", W, height)}
 {''.join(cards)}
 </svg>
 """
+
+
+def pill(label: str, icon: str, width: int) -> str:
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="32" viewBox="0 0 {width} 32" role="img" aria-label="{esc(label)}">
+  <rect width="{width}" height="32" rx="8" fill="{PANEL}" stroke="{STROKE}"/>
+  <g transform="translate(10,8)" fill="none" stroke="{CYAN}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+{icon}
+  </g>
+  <text x="34" y="21" fill="{CYAN}" font-size="12" font-family="{MONO}">{esc(label)}</text>
+</svg>
+"""
+
+
+def social_pills() -> None:
+    mail = """    <rect x="1" y="3" width="14" height="10" rx="1.6"/>
+    <path d="M1 5.2 8 11l7-5.8"/>"""
+    globe = """    <circle cx="8" cy="8" r="6.4"/>
+    <path d="M1.6 8h12.8"/>
+    <path d="M8 1.6c1.9 2.1 2.9 4.2 2.9 6.4s-1 4.3-2.9 6.4C6.1 12.3 5.1 10.2 5.1 8s1-4.3 2.9-6.4z"/>"""
+    linkedin = f"""    <rect x="1" y="1" width="14" height="14" rx="2.2" fill="{CYAN}" stroke="none"/>
+    <text x="8" y="12.2" text-anchor="middle" fill="{PANEL}" stroke="none" font-size="9" font-weight="700" font-family="{SANS}">in</text>"""
+    x_logo = """    <path d="M2.2 2.4h3.1l3 4.05 3.55-4.05h2.9L9.3 8.2 14.6 15h-3.15L8.2 10.6 4.4 15H1.5l5.55-6.95z" fill="{CYAN}" stroke="none"/>""".replace(
+        "{CYAN}", CYAN
+    )
+    write("pill-email.svg", pill("email", mail, 92))
+    write("pill-portfolio.svg", pill("portfolio", globe, 118))
+    write("pill-linkedin.svg", pill("linkedin", linkedin, 114))
+    write("pill-x.svg", pill("x", x_logo, 58))
+    write(
+        "icon-github.svg",
+        f"""<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" role="img" aria-label="GitHub">
+  <path fill="{CYAN}" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 3.7c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+</svg>
+""",
+    )
+    write(
+        "icon-award.svg",
+        f"""<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" role="img" aria-label="cert">
+  <g fill="none" stroke="{GOLD}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="8" cy="6.2" r="4"/>
+    <path d="M5.6 9.6 4.4 14.2 8 12.2l3.6 2-1.2-4.6"/>
+  </g>
+</svg>
+""",
+    )
 
 
 if __name__ == "__main__":
@@ -288,3 +339,4 @@ if __name__ == "__main__":
     write("log.svg", log())
     write("work.svg", work())
     write("certs.svg", certs())
+    social_pills()

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="316" viewBox="0 0 880 316" role="img" aria-label="Stack">
 
   <rect width="880" height="316" rx="12" fill="#0D1117" stroke="#30363D"/>
-  <text x="32" y="34" fill="#8B949E" font-size="13" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$ ls ./skills --group-by=domain</text>
+  <text x="32" y="34" fill="#8B949E" font-size="13" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$ gh skills --group-by=domain --limit 6</text>
   <circle cx="832" cy="28" r="5" fill="#3FB950"/>
   <text x="842" y="32" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">ok</text>
 

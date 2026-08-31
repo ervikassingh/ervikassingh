@@ -1,27 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img" aria-label="Career log">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="412" viewBox="0 0 880 412" role="img" aria-label="Career log">
 
-  <rect width="880" height="360" rx="12" fill="#0D1117" stroke="#30363D"/>
-  <text x="32" y="34" fill="#8B949E" font-size="13" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$ git log --author=vikas --oneline --decorate</text>
+  <rect width="880" height="412" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <text x="32" y="34" fill="#8B949E" font-size="13" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$ gh log --author=vikas --oneline --decorate</text>
   <circle cx="832" cy="28" r="5" fill="#3FB950"/>
   <text x="842" y="32" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">ok</text>
-  <line x1="48" y1="100" x2="48" y2="292" stroke="#30363D" stroke-width="2"/>
-  <circle cx="48" cy="100" r="6" fill="#3FB950" stroke="#0D1117" stroke-width="3"/>
-  <rect x="72" y="56" width="776" height="88" rx="8" fill="#161B22" stroke="#30363D"/>
-  <text x="88" y="78" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" letter-spacing="0.4">Oct 2025–now</text>
-  <text x="88" y="100" fill="#E6EDF3" font-size="14" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Web3 Backend Developer</text>
-  <text x="832" y="100" text-anchor="end" fill="#3FB950" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">The Hashgraph Group</text>
-  <text x="88" y="126" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">NestJS/TypeScript services over Hedera DLT. Auth, ledger I/O, production Web3 APIs.</text>
-  <circle cx="48" cy="196" r="6" fill="#58A6FF" stroke="#0D1117" stroke-width="3"/>
-  <rect x="72" y="152" width="776" height="88" rx="8" fill="#161B22" stroke="#30363D"/>
-  <text x="88" y="174" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" letter-spacing="0.4">Dec 2021–Sep 2025</text>
-  <text x="88" y="196" fill="#E6EDF3" font-size="14" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Software Engineer, Blockchain</text>
-  <text x="832" y="196" text-anchor="end" fill="#58A6FF" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Appinventiv</text>
-  <text x="88" y="222" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Taxicoin + collective-investment platforms. Multi-chain EVM indexer. Graph latency −40%.</text>
-  <text x="88" y="236" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">DAOs, Gnosis Safe.</text>
-  <circle cx="48" cy="292" r="6" fill="#D29922" stroke="#0D1117" stroke-width="3"/>
-  <rect x="72" y="248" width="776" height="88" rx="8" fill="#161B22" stroke="#30363D"/>
-  <text x="88" y="270" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" letter-spacing="0.4">Oct 2020–Dec 2021</text>
-  <text x="88" y="292" fill="#E6EDF3" font-size="14" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Analyst Programmer</text>
-  <text x="832" y="292" text-anchor="end" fill="#D29922" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">EbizON Digital</text>
-  <text x="88" y="318" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Express REST APIs for enterprise apps. CI/CD cut release cycle ~25%.</text>
+  <line x1="40" y1="106" x2="40" y2="330" stroke="#30363D" stroke-width="2"/>
+  <circle cx="40" cy="106" r="6" fill="#3FB950" stroke="#0D1117" stroke-width="3"/>
+  <rect x="62" y="56" width="786" height="100" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="80" y="82" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" letter-spacing="0.4">Oct 2025–now</text>
+  <text x="80" y="106" fill="#E6EDF3" font-size="14" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Web3 Backend Developer</text>
+  <text x="830" y="106" text-anchor="end" fill="#3FB950" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">The Hashgraph Group</text>
+  <text x="80" y="128" fill="#8B949E" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">NestJS/TypeScript services over Hedera DLT. Auth, ledger I/O, production Web3 APIs.</text>
+  <circle cx="40" cy="218" r="6" fill="#58A6FF" stroke="#0D1117" stroke-width="3"/>
+  <rect x="62" y="168" width="786" height="100" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="80" y="194" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" letter-spacing="0.4">Dec 2021–Sep 2025</text>
+  <text x="80" y="218" fill="#E6EDF3" font-size="14" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Software Engineer, Blockchain</text>
+  <text x="830" y="218" text-anchor="end" fill="#58A6FF" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Appinventiv</text>
+  <text x="80" y="240" fill="#8B949E" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Taxicoin + collective-investment platforms. Multi-chain EVM indexer. Graph latency −40%. DAOs, Gnosis Safe.</text>
+  <circle cx="40" cy="330" r="6" fill="#D29922" stroke="#0D1117" stroke-width="3"/>
+  <rect x="62" y="280" width="786" height="100" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="80" y="306" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" letter-spacing="0.4">Oct 2020–Dec 2021</text>
+  <text x="80" y="330" fill="#E6EDF3" font-size="14" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Analyst Programmer</text>
+  <text x="830" y="330" text-anchor="end" fill="#D29922" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">EbizON Digital</text>
+  <text x="80" y="352" fill="#8B949E" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Express REST APIs for enterprise apps. CI/CD cut release cycle ~25%.</text>
 </svg>
