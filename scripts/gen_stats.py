@@ -24,7 +24,8 @@ CYAN = "#58A6FF"
 GOLD = "#D29922"
 GREEN = "#3FB950"
 PURPLE = "#BC8CFF"
-MONO = "ui-monospace, 'SF Mono', Menlo, Consolas, monospace"
+SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"
+MONO = "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace"
 PALETTE = [CYAN, ACCENT, GOLD, GREEN, PURPLE, "#F778BA", "#79C0FF", "#FFA657"]
 
 
@@ -165,7 +166,7 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
             f"""
   <rect x="{x:.1f}" y="56" width="{tile_w:.1f}" height="72" rx="8" fill="{PANEL}" stroke="{STROKE}"/>
   <text x="{x + 16:.1f}" y="80" fill="{MUTED}" font-size="11" font-family="{MONO}" letter-spacing="1.2">{esc(label)}</text>
-  <text x="{x + 16:.1f}" y="110" fill="{color}" font-size="28" font-weight="700" font-family="{MONO}">{esc(value)}</text>"""
+  <text x="{x + 16:.1f}" y="110" fill="{color}" font-size="28" font-weight="700" font-family="{SANS}">{esc(value)}</text>"""
         )
 
     total = sum(size for _, size in langs) or 1
@@ -189,7 +190,7 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
         legend.append(
             f"""
   <rect x="{lx:.1f}" y="{ly:.1f}" width="8" height="8" rx="2" fill="{color}"/>
-  <text x="{lx + 14:.1f}" y="{ly + 9:.1f}" fill="{TEXT}" font-size="12" font-family="{MONO}">{esc(lang)} {fmt_pct(size, total)}</text>"""
+  <text x="{lx + 14:.1f}" y="{ly + 9:.1f}" fill="{TEXT}" font-size="12" font-family="{SANS}">{esc(lang)} {fmt_pct(size, total)}</text>"""
         )
         cursor += seg
 
@@ -200,7 +201,7 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
   <rect width="{width}" height="{height}" rx="12" fill="{BG}" stroke="{STROKE}"/>
   <text x="32" y="34" fill="{MUTED}" font-size="13" font-family="{MONO}">$ gh api users/{esc(data['login'])} --stats</text>
   <circle cx="{width - 48}" cy="28" r="5" fill="{GREEN}"/>
-  <text x="{width - 38}" y="32" fill="{MUTED}" font-size="11" font-family="{MONO}">live</text>
+  <text x="{width - 38}" y="32" fill="{MUTED}" font-size="11" font-family="{SANS}">live</text>
 {''.join(tiles)}
   <defs>
     <clipPath id="langbar">
@@ -211,7 +212,7 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
   <rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="7" fill="{PANEL}"/>
   <g clip-path="url(#langbar)">{''.join(segments)}</g>
 {''.join(legend)}
-  <text x="32" y="{footer_y}" fill="{MUTED}" font-size="11" font-family="{MONO}">on github {years}y{extra} · generated {esc(data['generated'])} · no third-party widgets</text>
+  <text x="32" y="{footer_y}" fill="{MUTED}" font-size="11" font-family="{SANS}">on github {years}y{extra} · generated {esc(data['generated'])}</text>
 </svg>
 """
 
