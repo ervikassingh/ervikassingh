@@ -1,39 +1,30 @@
 <p align="center">
-  <img src="./assets/whoami.svg" alt="whoami — Vikas Singh, philosophy, current focus" />
+  <img src="./assets/whoami.svg" alt="whoami — Vikas Singh" />
 </p>
+<p align="center">
 
----
+**[`email`](mailto:mail.ervikassingh@gmail.com)** ·
+**[`portfolio`](https://ervikassingh.com)** ·
+**[`linkedin`](https://linkedin.com/in/ervikassingh)** ·
+**[`x`](https://x.com/wiekkii)**
 
-### Stats
+</p>
 
 <p align="center">
   <img src="./assets/stats.svg" alt="GitHub stats for ervikassingh" />
 </p>
 
----
-
-### Stack
-
 <p align="center">
   <img src="./assets/stack.svg" alt="Stack by domain" />
 </p>
-
----
-
-### Log
 
 <p align="center">
   <img src="./assets/log.svg" alt="Career log" />
 </p>
 
----
-
-### Selected work
-
 <p align="center">
   <img src="./assets/work.svg" alt="Selected repositories" />
 </p>
-
 <p align="center">
 
 **[`custom-ai-agent`](https://github.com/ervikassingh/custom-ai-agent)** ·
@@ -44,37 +35,13 @@
 
 </p>
 
----
-
-### Certs
-
 <p align="center">
   <img src="./assets/certs.svg" alt="Certifications" />
 </p>
-
 <p align="center">
 
 **[`hashgraph-developer`](https://certs.hashgraphdev.com/e815d99e-dad3-463e-9553-f2723446c0c6.pdf)** ·
 **[`noir-zk-circuits`](https://profiles.cyfrin.io/u/ervikassingh/achievements/noir-programming-and-zk-circuits)** ·
 **[`fundamentals-of-zk-proofs`](https://profiles.cyfrin.io/u/ervikassingh/achievements/fundamentals-of-zero-knowledge-proofs)**
-
-</p>
-
----
-
-<p align="center">
-
-**[`→ email`](mailto:mail.ervikassingh@gmail.com)** ·
-**[`→ portfolio`](https://ervikassingh.com)** ·
-**[`→ linkedin`](https://linkedin.com/in/ervikassingh)** ·
-**[`→ x`](https://x.com/wiekkii)**
-
-</p>
-
-<p align="center">
-
-**[`Senior Backend Engineer`](https://ervikassingh.com)** ·
-**[`NestJS · distributed systems · agentic AI`](https://ervikassingh.com)** ·
-**[`Dehradun, India · open to remote`](https://ervikassingh.com)**
 
 </p>
