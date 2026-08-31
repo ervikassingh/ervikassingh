@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="312" viewBox="0 0 880 312" role="img" aria-label="GitHub stats for ervikassingh">
+  <rect width="880" height="312" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <text x="32" y="34" fill="#8B949E" font-size="13" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">$ gh api users/ervikassingh --stats</text>
+  <circle cx="832" cy="28" r="5" fill="#3FB950"/>
+  <text x="842" y="32" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">live</text>
+
+  <rect x="32.0" y="56" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="48.0" y="80" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">PUBLIC REPOS</text>
+  <text x="48.0" y="110" fill="#58A6FF" font-size="28" font-weight="700" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">14</text>
+  <rect x="239.0" y="56" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="255.0" y="80" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">STARS</text>
+  <text x="255.0" y="110" fill="#D29922" font-size="28" font-weight="700" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">84</text>
+  <rect x="446.0" y="56" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="462.0" y="80" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">FORKS</text>
+  <text x="462.0" y="110" fill="#3FB950" font-size="28" font-weight="700" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">59</text>
+  <rect x="653.0" y="56" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="669.0" y="80" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">FOLLOWERS</text>
+  <text x="669.0" y="110" fill="#BC8CFF" font-size="28" font-weight="700" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">27</text>
+  <defs>
+    <clipPath id="langbar">
+      <rect x="32" y="168" width="816" height="14" rx="7"/>
+    </clipPath>
+  </defs>
+  <text x="32" y="156" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" letter-spacing="1.2">LANGUAGE BYTES (OWN REPOS)</text>
+  <rect x="32" y="168" width="816" height="14" rx="7" fill="#161B22"/>
+  <g clip-path="url(#langbar)"><rect x="32.0" y="168" width="292.7" height="14" fill="#58A6FF"/><rect x="324.7" y="168" width="207.7" height="14" fill="#E0234E"/><rect x="532.5" y="168" width="186.2" height="14" fill="#D29922"/><rect x="718.7" y="168" width="91.4" height="14" fill="#3FB950"/><rect x="810.1" y="168" width="16.9" height="14" fill="#BC8CFF"/><rect x="827.0" y="168" width="14.6" height="14" fill="#F778BA"/><rect x="841.6" y="168" width="2.6" height="14" fill="#79C0FF"/><rect x="844.2" y="168" width="2.1" height="14" fill="#FFA657"/><rect x="846.3" y="168" width="1.7" height="14" fill="#58A6FF"/></g>
+
+  <rect x="32.0" y="198.0" width="8" height="8" rx="2" fill="#58A6FF"/>
+  <text x="46.0" y="207.0" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">Solidity 36%</text>
+  <rect x="236.0" y="198.0" width="8" height="8" rx="2" fill="#E0234E"/>
+  <text x="250.0" y="207.0" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">Jupyter Notebook 25%</text>
+  <rect x="440.0" y="198.0" width="8" height="8" rx="2" fill="#D29922"/>
+  <text x="454.0" y="207.0" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">TypeScript 23%</text>
+  <rect x="644.0" y="198.0" width="8" height="8" rx="2" fill="#3FB950"/>
+  <text x="658.0" y="207.0" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">JavaScript 11%</text>
+  <rect x="32.0" y="220.0" width="8" height="8" rx="2" fill="#BC8CFF"/>
+  <text x="46.0" y="229.0" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">CSS 2%</text>
+  <rect x="236.0" y="220.0" width="8" height="8" rx="2" fill="#F778BA"/>
+  <text x="250.0" y="229.0" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">MDX 2%</text>
+  <rect x="440.0" y="220.0" width="8" height="8" rx="2" fill="#79C0FF"/>
+  <text x="454.0" y="229.0" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">HTML 0.3%</text>
+  <rect x="644.0" y="220.0" width="8" height="8" rx="2" fill="#FFA657"/>
+  <text x="658.0" y="229.0" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">Noir 0.3%</text>
+  <rect x="32.0" y="242.0" width="8" height="8" rx="2" fill="#58A6FF"/>
+  <text x="46.0" y="251.0" fill="#E6EDF3" font-size="12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">Dockerfile 0.2%</text>
+  <text x="32" y="292" fill="#8B949E" font-size="11" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">on github 7y · generated 2026-08-31 · no third-party widgets</text>
+</svg>
