@@ -2,7 +2,7 @@
   <rect width="880" height="312" rx="12" fill="#0D1117" stroke="#30363D"/>
   <text x="32" y="34" fill="#8B949E" font-size="13" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$ gh stats --user=ervikassingh --since=2019</text>
   <circle cx="832" cy="28" r="5" fill="#3FB950"/>
-  <text x="842" y="32" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">live</text>
+  <text x="842" y="32" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">ok</text>
 
   <rect x="32.0" y="56" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
   <text x="48.0" y="80" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">PUBLIC REPOS</text>

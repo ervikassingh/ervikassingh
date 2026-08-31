@@ -27,24 +27,24 @@
   <img src="./assets/work.svg" alt="Selected repositories" />
 </p>
 <p align="center">
-  <a href="https://github.com/ervikassingh/custom-ai-agent"><img src="./assets/icon-github.svg" width="14" height="14" alt="" /> custom-ai-agent</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/ervikassingh/nestjs-microservices-template"><img src="./assets/icon-github.svg" width="14" height="14" alt="" /> nestjs-microservices-template</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/ervikassingh/nestjs-monolithic-template"><img src="./assets/icon-github.svg" width="14" height="14" alt="" /> nestjs-monolithic-template</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/ervikassingh/prompt-relay-landing"><img src="./assets/icon-github.svg" width="14" height="14" alt="" /> prompt-relay</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/ervikassingh/nft-market"><img src="./assets/icon-github.svg" width="14" height="14" alt="" /> nft-market</a>
+  <a href="https://github.com/ervikassingh/custom-ai-agent"><img src="./assets/pill-custom-ai-agent.svg" alt="custom-ai-agent" height="32" /></a>
+  &nbsp;
+  <a href="https://github.com/ervikassingh/nestjs-microservices-template"><img src="./assets/pill-nestjs-microservices-template.svg" alt="nestjs-microservices-template" height="32" /></a>
+  &nbsp;
+  <a href="https://github.com/ervikassingh/nestjs-monolithic-template"><img src="./assets/pill-nestjs-monolithic-template.svg" alt="nestjs-monolithic-template" height="32" /></a>
+  &nbsp;
+  <a href="https://github.com/ervikassingh/prompt-relay-landing"><img src="./assets/pill-prompt-relay.svg" alt="prompt-relay" height="32" /></a>
+  &nbsp;
+  <a href="https://github.com/ervikassingh/nft-market"><img src="./assets/pill-nft-market.svg" alt="nft-market" height="32" /></a>
 </p>
 
 <p align="center">
   <img src="./assets/certs.svg" alt="Certifications" />
 </p>
 <p align="center">
-  <a href="https://certs.hashgraphdev.com/e815d99e-dad3-463e-9553-f2723446c0c6.pdf"><img src="./assets/icon-award.svg" width="14" height="14" alt="" /> hashgraph-developer</a>
-  &nbsp;·&nbsp;
-  <a href="https://profiles.cyfrin.io/u/ervikassingh/achievements/noir-programming-and-zk-circuits"><img src="./assets/icon-award.svg" width="14" height="14" alt="" /> noir-zk-circuits</a>
-  &nbsp;·&nbsp;
-  <a href="https://profiles.cyfrin.io/u/ervikassingh/achievements/fundamentals-of-zero-knowledge-proofs"><img src="./assets/icon-award.svg" width="14" height="14" alt="" /> fundamentals-of-zk-proofs</a>
+  <a href="https://certs.hashgraphdev.com/e815d99e-dad3-463e-9553-f2723446c0c6.pdf"><img src="./assets/pill-hashgraph-developer.svg" alt="hashgraph-developer" height="32" /></a>
+  &nbsp;
+  <a href="https://profiles.cyfrin.io/u/ervikassingh/achievements/noir-programming-and-zk-circuits"><img src="./assets/pill-noir-zk-circuits.svg" alt="noir-zk-circuits" height="32" /></a>
+  &nbsp;
+  <a href="https://profiles.cyfrin.io/u/ervikassingh/achievements/fundamentals-of-zero-knowledge-proofs"><img src="./assets/pill-fundamentals-of-zk-proofs.svg" alt="fundamentals-of-zk-proofs" height="32" /></a>
 </p>

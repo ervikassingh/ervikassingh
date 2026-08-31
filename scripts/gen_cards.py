@@ -288,49 +288,66 @@ def certs() -> str:
 """
 
 
-def pill(label: str, icon: str, width: int) -> str:
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="32" viewBox="0 0 {width} 32" role="img" aria-label="{esc(label)}">
-  <rect width="{width}" height="32" rx="8" fill="{PANEL}" stroke="{STROKE}"/>
-  <g transform="translate(10,8)" fill="none" stroke="{CYAN}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+PILL_H = 32
+FONT_SIZE = 12
+TEXT_Y = 21
+# Same cap-height and baseline as the 12px label.
+ICON_SRC = 16
+ICON_SIZE = 9
+ICON_X = 10
+ICON_Y = TEXT_Y - ICON_SIZE + 0.8
+TEXT_X = ICON_X + ICON_SIZE + 6
+CHAR_W = 7.4
+PAD_RIGHT = 12
+
+
+def pill_width(label: str) -> int:
+    return round(TEXT_X + len(label) * CHAR_W + PAD_RIGHT)
+
+
+def pill(label: str, icon: str, width: int | None = None, icon_stroke: str = CYAN) -> str:
+    w = width if width is not None else pill_width(label)
+    scale = ICON_SIZE / ICON_SRC
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{PILL_H}" viewBox="0 0 {w} {PILL_H}" role="img" aria-label="{esc(label)}">
+  <rect width="{w}" height="{PILL_H}" rx="8" fill="{PANEL}" stroke="{STROKE}"/>
+  <g transform="translate({ICON_X:.1f},{ICON_Y:.1f}) scale({scale:.4f})" fill="none" stroke="{icon_stroke}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 {icon}
   </g>
-  <text x="34" y="21" fill="{CYAN}" font-size="12" font-family="{MONO}">{esc(label)}</text>
+  <text x="{TEXT_X:.1f}" y="{TEXT_Y}" fill="{CYAN}" font-size="{FONT_SIZE}" font-family="{MONO}">{esc(label)}</text>
 </svg>
 """
 
 
-def social_pills() -> None:
-    mail = """    <rect x="1" y="3" width="14" height="10" rx="1.6"/>
-    <path d="M1 5.2 8 11l7-5.8"/>"""
-    globe = """    <circle cx="8" cy="8" r="6.4"/>
-    <path d="M1.6 8h12.8"/>
-    <path d="M8 1.6c1.9 2.1 2.9 4.2 2.9 6.4s-1 4.3-2.9 6.4C6.1 12.3 5.1 10.2 5.1 8s1-4.3 2.9-6.4z"/>"""
-    linkedin = f"""    <rect x="1" y="1" width="14" height="14" rx="2.2" fill="{CYAN}" stroke="none"/>
-    <text x="8" y="12.2" text-anchor="middle" fill="{PANEL}" stroke="none" font-size="9" font-weight="700" font-family="{SANS}">in</text>"""
-    x_logo = """    <path d="M2.2 2.4h3.1l3 4.05 3.55-4.05h2.9L9.3 8.2 14.6 15h-3.15L8.2 10.6 4.4 15H1.5l5.55-6.95z" fill="{CYAN}" stroke="none"/>""".replace(
-        "{CYAN}", CYAN
-    )
-    write("pill-email.svg", pill("email", mail, 92))
-    write("pill-portfolio.svg", pill("portfolio", globe, 118))
-    write("pill-linkedin.svg", pill("linkedin", linkedin, 114))
-    write("pill-x.svg", pill("x", x_logo, 58))
-    write(
-        "icon-github.svg",
-        f"""<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" role="img" aria-label="GitHub">
-  <path fill="{CYAN}" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 3.7c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-</svg>
-""",
-    )
-    write(
-        "icon-award.svg",
-        f"""<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" role="img" aria-label="cert">
-  <g fill="none" stroke="{GOLD}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="8" cy="6.2" r="4"/>
-    <path d="M5.6 9.6 4.4 14.2 8 12.2l3.6 2-1.2-4.6"/>
-  </g>
-</svg>
-""",
-    )
+def write_pills() -> None:
+    mail = """    <rect x="0.5" y="1.5" width="15" height="13" rx="2"/>
+    <path d="M0.5 4.2 8 10.8l7.5-6.6"/>"""
+    globe = """    <circle cx="8" cy="8" r="7.2"/>
+    <path d="M0.8 8h14.4"/>
+    <path d="M8 0.8c2.1 2.3 3.2 4.6 3.2 7.2s-1.1 4.9-3.2 7.2C5.9 12.9 4.8 10.6 4.8 8s1.1-4.9 3.2-7.2z"/>"""
+    linkedin = f"""    <rect x="0" y="0" width="16" height="16" rx="2.6" fill="{CYAN}" stroke="none"/>
+    <text x="8" y="12.4" text-anchor="middle" fill="{PANEL}" stroke="none" font-size="10" font-weight="700" font-family="{SANS}">in</text>"""
+    x_logo = f"""    <path d="M0.4 0.6h3.6l3.5 4.7 4.15-4.7H15.6L9.2 8.4 15.5 15.4h-3.7L8 10.4 3.55 15.4H0.2l6.5-7.2z" fill="{CYAN}" stroke="none"/>"""
+    github = f"""    <path fill="{CYAN}" stroke="none" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 3.7c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>"""
+    award = """    <circle cx="8" cy="6.4" r="5.2"/>
+    <path d="M4.6 10.4 3.2 16 8 13.6 12.8 16 11.4 10.4"/>"""
+    write("pill-email.svg", pill("email", mail))
+    write("pill-portfolio.svg", pill("portfolio", globe))
+    write("pill-linkedin.svg", pill("linkedin", linkedin))
+    write("pill-x.svg", pill("x", x_logo))
+    for name in (
+        "custom-ai-agent",
+        "nestjs-microservices-template",
+        "nestjs-monolithic-template",
+        "prompt-relay",
+        "nft-market",
+    ):
+        write(f"pill-{name}.svg", pill(name, github))
+    for name in (
+        "hashgraph-developer",
+        "noir-zk-circuits",
+        "fundamentals-of-zk-proofs",
+    ):
+        write(f"pill-{name}.svg", pill(name, award, icon_stroke=GOLD))
 
 
 if __name__ == "__main__":
@@ -339,4 +356,4 @@ if __name__ == "__main__":
     write("log.svg", log())
     write("work.svg", work())
     write("certs.svg", certs())
-    social_pills()
+    write_pills()

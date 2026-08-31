@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="118" height="32" viewBox="0 0 118 32" role="img" aria-label="portfolio">
-  <rect width="118" height="32" rx="8" fill="#161B22" stroke="#30363D"/>
-  <g transform="translate(10,8)" fill="none" stroke="#58A6FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="8" cy="8" r="6.4"/>
-    <path d="M1.6 8h12.8"/>
-    <path d="M8 1.6c1.9 2.1 2.9 4.2 2.9 6.4s-1 4.3-2.9 6.4C6.1 12.3 5.1 10.2 5.1 8s1-4.3 2.9-6.4z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="32" viewBox="0 0 104 32" role="img" aria-label="portfolio">
+  <rect width="104" height="32" rx="8" fill="#161B22" stroke="#30363D"/>
+  <g transform="translate(10.0,12.8) scale(0.5625)" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="8" cy="8" r="7.2"/>
+    <path d="M0.8 8h14.4"/>
+    <path d="M8 0.8c2.1 2.3 3.2 4.6 3.2 7.2s-1.1 4.9-3.2 7.2C5.9 12.9 4.8 10.6 4.8 8s1.1-4.9 3.2-7.2z"/>
   </g>
-  <text x="34" y="21" fill="#58A6FF" font-size="12" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">portfolio</text>
+  <text x="25.0" y="21" fill="#58A6FF" font-size="12" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">portfolio</text>
 </svg>
