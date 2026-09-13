@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/whoami-header.svg" alt="About me — backend engineering · AI · Web3" />
+  <img src="./assets/whoami-header.svg" alt="About me — Backend Engineering · AI · Web3" />
 </p>
 <p align="center">
   <img src="./assets/whoami-identity.svg" alt="vikas singh — Senior Backend Engineer (6+ years)" />
@@ -20,14 +20,14 @@
 </p>
 
 <p align="center">
-  <img src="./assets/stats-header.svg" alt="GitHub stats — live metrics from the GitHub API" />
+  <img src="./assets/stats-header.svg" alt="GitHub stats — metrics from GitHub" />
 </p>
 <p align="center">
   <img src="./assets/stats.svg" alt="GitHub stats for ervikassingh" />
 </p>
 
 <p align="center">
-  <img src="./assets/stack-header.svg" alt="Technical stack — tools grouped by domain" />
+  <img src="./assets/stack-header.svg" alt="Technical stack — tools and frameworks" />
 </p>
 <p align="center">
   <img src="./assets/stack-backend.svg" alt="Backend stack" />
@@ -45,7 +45,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/log-header.svg" alt="Career timeline — experience across backend and Web3" />
+  <img src="./assets/log-header.svg" alt="Career timeline — backend engineering experience" />
 </p>
 <p align="center">
   <a href="https://www.hashgraph-group.com/"><img src="./assets/log-hashgraph-group.svg" alt="Web3 Backend Developer — The Hashgraph Group" /></a>

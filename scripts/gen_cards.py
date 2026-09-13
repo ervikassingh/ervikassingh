@@ -75,7 +75,7 @@ def write(name: str, svg: str) -> None:
 def whoami_header() -> str:
     height = 56
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="About me">
-{section_header("About me", "Backend engineering · AI · Web3")}
+{section_header("About me", "Backend Engineering · AI · Web3")}
 </svg>
 """
 
@@ -137,7 +137,7 @@ def whoami_focus() -> str:
 def stack_header() -> str:
     height = 56
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="Stack">
-{section_header("Technical stack", "Tools grouped by domain")}
+{section_header("Technical stack", "Tools and frameworks")}
 </svg>
 """
 
@@ -173,7 +173,7 @@ LOG_CARDS = [
 def log_header() -> str:
     height = 56
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="Career timeline">
-{section_header("Career timeline", "Experience across backend and Web3")}
+{section_header("Career timeline", "Backend engineering experience")}
 </svg>
 """
 
@@ -233,7 +233,7 @@ WORK_CARDS = [
 def certs_header() -> str:
     height = 56
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="Certifications">
-{section_header("Certifications", "Selected learning milestones · 2026")}
+{section_header("Certifications", "Professional learning and certifications")}
 </svg>
 """
 
