@@ -4,5 +4,6 @@
   <text x="56" y="26" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" letter-spacing="0.4">Dec 2021–Sep 2025</text>
   <text x="56" y="50" fill="#E6EDF3" font-size="14" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Software Engineer, Blockchain</text>
   <text x="798" y="50" text-anchor="end" fill="#58A6FF" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Appinventiv</text>
-  <text x="56" y="72" fill="#8B949E" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Taxicoin + collective-investment platforms. Multi-chain EVM indexer. Graph latency −40%. DAOs, Gnosis Safe.</text>
+  <text x="56" y="72" fill="#8B949E" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Built a shared multi-chain EVM indexer and Web3 platforms; Graph queries cut latency 40% across DAOs,</text>
+  <text x="56" y="88" fill="#8B949E" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">tokenization, and Gnosis Safe.</text>
 </svg>

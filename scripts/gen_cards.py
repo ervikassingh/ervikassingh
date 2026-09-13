@@ -148,7 +148,7 @@ LOG_CARDS = [
         "Oct 2025–now",
         "Web3 Backend Developer",
         "The Hashgraph Group",
-        "NestJS/TypeScript services over Hedera DLT. Auth, ledger I/O, production Web3 APIs.",
+        "Built Hedera backends and owned 2 products; scaled THA Academy to 120K+ users and shipped DynamoDB tooling for 200+ employees.",
         GREEN,
     ),
     (
@@ -156,7 +156,7 @@ LOG_CARDS = [
         "Dec 2021–Sep 2025",
         "Software Engineer, Blockchain",
         "Appinventiv",
-        "Taxicoin + collective-investment platforms. Multi-chain EVM indexer. Graph latency −40%. DAOs, Gnosis Safe.",
+        "Built a shared multi-chain EVM indexer and Web3 platforms; Graph queries cut latency 40% across DAOs, tokenization, and Gnosis Safe.",
         CYAN,
     ),
     (
@@ -164,7 +164,7 @@ LOG_CARDS = [
         "Oct 2020–Dec 2021",
         "Analyst Programmer",
         "EbizON Digital",
-        "Express REST APIs for enterprise apps. CI/CD cut release cycle ~25%.",
+        "Built 3+ enterprise web apps with Express.js and React; optimized APIs and introduced CI/CD workflows that accelerated releases 25%.",
         GOLD,
     ),
 ]
@@ -222,11 +222,11 @@ STACK_CARDS = [
     ("web3", "web3/", "hedera · evm · the-graph · solidity · daos · defi · gnosis-safe", ACCENT),
 ]
 WORK_CARDS = [
-    ("custom-ai-agent", "custom-ai-agent", "RAG agent · NestJS · Ollama · Postgres · Qdrant", PURPLE),
-    ("nestjs-microservices-template", "nestjs-microservices-template", "Nx gateway · gRPC · tracing · Helm · Grafana", CYAN),
-    ("nestjs-monolithic-template", "nestjs-monolithic-template", "JWT + RBAC · TypeORM · Winston · Jest · Compose", GREEN),
-    ("prompt-relay", "prompt-relay", "Local-first LLM context tracking + compressed handoff", GOLD),
-    ("nft-market", "nft-market", "ERC-20 / ERC-721 marketplace · ETH/BNB + tokens", ACCENT),
+    ("agent-orchestration", "agent-orchestration", "LangGraph · FastAPI · RAG · Chroma · React", PURPLE),
+    ("custom-ai-agent", "custom-ai-agent", "NestJS · Ollama · RAG · Qdrant · PostgreSQL · Docker", CYAN),
+    ("prompt-relay", "prompt-relay", "TypeScript · Chrome Extension · LLM context handoff", GOLD),
+    ("nestjs-microservices-template", "nestjs-microservices-template", "NestJS · Nx · gRPC · Redis · Docker · Kubernetes", GREEN),
+    ("nestjs-monolithic-template", "nestjs-monolithic-template", "NestJS · TypeORM · JWT · Swagger · Docker", ACCENT),
 ]
 
 

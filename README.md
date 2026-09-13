@@ -61,17 +61,17 @@
   <img src="./assets/work-header.svg" alt="Selected work — projects and reusable building blocks" />
 </p>
 <p align="center">
+  <a href="https://github.com/ervikassingh/agent-orchestration"><img src="./assets/work-agent-orchestration.svg" alt="agent-orchestration" /></a>
+  &nbsp;
   <a href="https://github.com/ervikassingh/custom-ai-agent"><img src="./assets/work-custom-ai-agent.svg" alt="custom-ai-agent" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/ervikassingh/prompt-relay-landing"><img src="./assets/work-prompt-relay.svg" alt="prompt-relay" /></a>
   &nbsp;
   <a href="https://github.com/ervikassingh/nestjs-microservices-template"><img src="./assets/work-nestjs-microservices-template.svg" alt="nestjs-microservices-template" /></a>
 </p>
 <p align="center">
   <a href="https://github.com/ervikassingh/nestjs-monolithic-template"><img src="./assets/work-nestjs-monolithic-template.svg" alt="nestjs-monolithic-template" /></a>
-  &nbsp;
-  <a href="https://github.com/ervikassingh/prompt-relay-landing"><img src="./assets/work-prompt-relay.svg" alt="prompt-relay" /></a>
-</p>
-<p align="center">
-  <a href="https://github.com/ervikassingh/nft-market"><img src="./assets/work-nft-market.svg" alt="nft-market" /></a>
 </p>
 
 <p align="center">

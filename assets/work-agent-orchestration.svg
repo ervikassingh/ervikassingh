@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="402" height="78" viewBox="0 0 402 78" role="img" aria-label="agent-orchestration">
+  <rect width="402" height="78" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="16" y="32" fill="#BC8CFF" font-size="14" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">agent-orchestration</text>
+  <text x="16" y="54" fill="#8B949E" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">LangGraph · FastAPI · RAG · Chroma · React</text>
+</svg>

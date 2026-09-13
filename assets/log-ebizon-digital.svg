@@ -4,5 +4,6 @@
   <text x="56" y="26" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" letter-spacing="0.4">Oct 2020–Dec 2021</text>
   <text x="56" y="50" fill="#E6EDF3" font-size="14" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Analyst Programmer</text>
   <text x="798" y="50" text-anchor="end" fill="#D29922" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">EbizON Digital</text>
-  <text x="56" y="72" fill="#8B949E" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Express REST APIs for enterprise apps. CI/CD cut release cycle ~25%.</text>
+  <text x="56" y="72" fill="#8B949E" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Built 3+ enterprise web apps with Express.js and React; optimized APIs and introduced CI/CD workflows that</text>
+  <text x="56" y="88" fill="#8B949E" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">accelerated releases 25%.</text>
 </svg>
