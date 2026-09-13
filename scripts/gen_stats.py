@@ -137,7 +137,7 @@ def esc(value) -> str:
 def fmt_pct(size: int, total: int) -> str:
     pct = 100 * size / total
     if pct < 0.1:
-        return "<0.1%"
+        return "&lt;0.1%"
     if pct < 1:
         return f"{pct:.1f}%"
     return f"{pct:.0f}%"
@@ -190,13 +190,14 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
         legend.append(
             f"""
   <rect x="{lx:.1f}" y="{ly:.1f}" width="8" height="8" rx="2" fill="{color}"/>
-  <text x="{lx + 14:.1f}" y="{ly + 9:.1f}" fill="{TEXT}" font-size="12" font-family="{SANS}">{esc(lang)} {fmt_pct(size, total)}</text>"""
+  <text x="{lx + 14:.1f}" y="{ly + 9:.1f}" fill="{TEXT}" font-size="12" font-family="{SANS}">{esc(lang)} {esc(fmt_pct(size, total))}</text>"""
         )
         cursor += seg
 
     years = data["years"]
     contrib = data.get("contributions")
     extra = f" · {contrib} contribs last year" if contrib is not None else ""
+    generated = esc(data["generated"])
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="GitHub stats for {esc(data['login'])}">
   <rect width="{width}" height="{height}" rx="12" fill="{BG}" stroke="{STROKE}"/>
   <text x="32" y="34" fill="{MUTED}" font-size="13" font-family="{MONO}">$ gh stats --user={esc(data['login'])} --since=2019</text>
@@ -212,7 +213,7 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
   <rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="7" fill="{PANEL}"/>
   <g clip-path="url(#langbar)">{''.join(segments)}</g>
 {''.join(legend)}
-  <text x="32" y="{footer_y}" fill="{MUTED}" font-size="11" font-family="{SANS}">on github {years}y{extra} · generated {esc(data['generated'])}</text>
+  <text x="32" y="{footer_y}" fill="{MUTED}" font-size="11" font-family="{SANS}">on github {years}y{extra} · generated {generated}</text>
 </svg>
 """
 
