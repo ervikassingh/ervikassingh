@@ -1,51 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="312" viewBox="0 0 880 312" role="img" aria-label="GitHub stats for ervikassingh">
-  <rect width="880" height="312" rx="12" fill="#0D1117" stroke="#30363D"/>
-  <text x="32" y="34" fill="#8B949E" font-size="13" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$ gh stats --user=ervikassingh --since=2019</text>
-  <circle cx="832" cy="28" r="5" fill="#3FB950"/>
-  <text x="842" y="32" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">ok</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="288" viewBox="0 0 880 288" role="img" aria-label="GitHub stats for ervikassingh">
+  <rect width="880" height="288" rx="12" fill="#161B22" stroke="#30363D"/>
 
-  <rect x="32.0" y="56" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
-  <text x="48.0" y="80" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">PUBLIC REPOS</text>
-  <text x="48.0" y="110" fill="#58A6FF" font-size="28" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">15</text>
-  <rect x="239.0" y="56" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
-  <text x="255.0" y="80" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">STARS</text>
-  <text x="255.0" y="110" fill="#D29922" font-size="28" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">84</text>
-  <rect x="446.0" y="56" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
-  <text x="462.0" y="80" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">FORKS</text>
-  <text x="462.0" y="110" fill="#3FB950" font-size="28" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">59</text>
-  <rect x="653.0" y="56" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
-  <text x="669.0" y="80" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">FOLLOWERS</text>
-  <text x="669.0" y="110" fill="#BC8CFF" font-size="28" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">27</text>
+  <rect x="32.0" y="32" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="48.0" y="56" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">PUBLIC REPOS</text>
+  <text x="48.0" y="86" fill="#58A6FF" font-size="28" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">15</text>
+  <rect x="239.0" y="32" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="255.0" y="56" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">STARS</text>
+  <text x="255.0" y="86" fill="#D29922" font-size="28" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">84</text>
+  <rect x="446.0" y="32" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="462.0" y="56" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">FORKS</text>
+  <text x="462.0" y="86" fill="#3FB950" font-size="28" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">59</text>
+  <rect x="653.0" y="32" width="195.0" height="72" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="669.0" y="56" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">FOLLOWERS</text>
+  <text x="669.0" y="86" fill="#BC8CFF" font-size="28" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">27</text>
   <defs>
     <clipPath id="langbar">
-      <rect x="32" y="168" width="816" height="14" rx="7"/>
+      <rect x="32" y="144" width="816" height="14" rx="7"/>
     </clipPath>
   </defs>
-  <text x="32" y="156" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">LANGUAGE BYTES (OWN REPOS)</text>
-  <rect x="32" y="168" width="816" height="14" rx="7" fill="#161B22"/>
-  <g clip-path="url(#langbar)"><rect x="32.0" y="168" width="273.8" height="14" fill="#58A6FF"/><rect x="305.8" y="168" width="194.3" height="14" fill="#E0234E"/><rect x="500.0" y="168" width="178.2" height="14" fill="#D29922"/><rect x="678.2" y="168" width="85.5" height="14" fill="#3FB950"/><rect x="763.7" y="168" width="41.3" height="14" fill="#BC8CFF"/><rect x="805.0" y="168" width="18.7" height="14" fill="#F778BA"/><rect x="823.7" y="168" width="17.8" height="14" fill="#79C0FF"/><rect x="841.5" y="168" width="2.6" height="14" fill="#FFA657"/><rect x="844.1" y="168" width="1.9" height="14" fill="#58A6FF"/><rect x="846.0" y="168" width="1.6" height="14" fill="#E0234E"/><rect x="847.6" y="168" width="0.4" height="14" fill="#D29922"/></g>
+  <text x="32" y="132" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">LANGUAGE BYTES (OWN REPOS)</text>
+  <rect x="32" y="144" width="816" height="14" rx="7" fill="#161B22"/>
+  <g clip-path="url(#langbar)"><rect x="32.0" y="144" width="273.8" height="14" fill="#58A6FF"/><rect x="305.8" y="144" width="194.3" height="14" fill="#E0234E"/><rect x="500.0" y="144" width="178.2" height="14" fill="#D29922"/><rect x="678.2" y="144" width="85.5" height="14" fill="#3FB950"/><rect x="763.7" y="144" width="41.3" height="14" fill="#BC8CFF"/><rect x="805.0" y="144" width="18.7" height="14" fill="#F778BA"/><rect x="823.7" y="144" width="17.8" height="14" fill="#79C0FF"/><rect x="841.5" y="144" width="2.6" height="14" fill="#FFA657"/><rect x="844.1" y="144" width="1.9" height="14" fill="#58A6FF"/><rect x="846.0" y="144" width="1.6" height="14" fill="#E0234E"/><rect x="847.6" y="144" width="0.4" height="14" fill="#D29922"/></g>
 
-  <rect x="32.0" y="198.0" width="8" height="8" rx="2" fill="#58A6FF"/>
-  <text x="46.0" y="207.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Solidity 34%</text>
-  <rect x="236.0" y="198.0" width="8" height="8" rx="2" fill="#E0234E"/>
-  <text x="250.0" y="207.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Jupyter Notebook 24%</text>
-  <rect x="440.0" y="198.0" width="8" height="8" rx="2" fill="#D29922"/>
-  <text x="454.0" y="207.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">TypeScript 22%</text>
-  <rect x="644.0" y="198.0" width="8" height="8" rx="2" fill="#3FB950"/>
-  <text x="658.0" y="207.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">JavaScript 10%</text>
-  <rect x="32.0" y="220.0" width="8" height="8" rx="2" fill="#BC8CFF"/>
-  <text x="46.0" y="229.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Python 5%</text>
-  <rect x="236.0" y="220.0" width="8" height="8" rx="2" fill="#F778BA"/>
-  <text x="250.0" y="229.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">CSS 2%</text>
-  <rect x="440.0" y="220.0" width="8" height="8" rx="2" fill="#79C0FF"/>
-  <text x="454.0" y="229.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">MDX 2%</text>
-  <rect x="644.0" y="220.0" width="8" height="8" rx="2" fill="#FFA657"/>
-  <text x="658.0" y="229.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">HTML 0.3%</text>
-  <rect x="32.0" y="242.0" width="8" height="8" rx="2" fill="#58A6FF"/>
-  <text x="46.0" y="251.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Noir 0.2%</text>
-  <rect x="236.0" y="242.0" width="8" height="8" rx="2" fill="#E0234E"/>
-  <text x="250.0" y="251.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Dockerfile 0.2%</text>
-  <rect x="440.0" y="242.0" width="8" height="8" rx="2" fill="#D29922"/>
-  <text x="454.0" y="251.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Makefile &amp;lt;0.1%</text>
-  <text x="32" y="292" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">on github 7y · 404 contribs last year · generated 2026-09-13</text>
+  <rect x="32.0" y="174.0" width="8" height="8" rx="2" fill="#58A6FF"/>
+  <text x="46.0" y="183.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Solidity 34%</text>
+  <rect x="236.0" y="174.0" width="8" height="8" rx="2" fill="#E0234E"/>
+  <text x="250.0" y="183.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Jupyter Notebook 24%</text>
+  <rect x="440.0" y="174.0" width="8" height="8" rx="2" fill="#D29922"/>
+  <text x="454.0" y="183.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">TypeScript 22%</text>
+  <rect x="644.0" y="174.0" width="8" height="8" rx="2" fill="#3FB950"/>
+  <text x="658.0" y="183.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">JavaScript 10%</text>
+  <rect x="32.0" y="196.0" width="8" height="8" rx="2" fill="#BC8CFF"/>
+  <text x="46.0" y="205.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Python 5%</text>
+  <rect x="236.0" y="196.0" width="8" height="8" rx="2" fill="#F778BA"/>
+  <text x="250.0" y="205.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">CSS 2%</text>
+  <rect x="440.0" y="196.0" width="8" height="8" rx="2" fill="#79C0FF"/>
+  <text x="454.0" y="205.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">MDX 2%</text>
+  <rect x="644.0" y="196.0" width="8" height="8" rx="2" fill="#FFA657"/>
+  <text x="658.0" y="205.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">HTML 0.3%</text>
+  <rect x="32.0" y="218.0" width="8" height="8" rx="2" fill="#58A6FF"/>
+  <text x="46.0" y="227.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Noir 0.2%</text>
+  <rect x="236.0" y="218.0" width="8" height="8" rx="2" fill="#E0234E"/>
+  <text x="250.0" y="227.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Dockerfile 0.2%</text>
+  <rect x="440.0" y="218.0" width="8" height="8" rx="2" fill="#D29922"/>
+  <text x="454.0" y="227.0" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Makefile &lt;0.1%</text>
+  <text x="32" y="268" fill="#8B949E" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">on github 7y · generated 2026-09-13</text>
 </svg>

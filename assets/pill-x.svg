@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="44" height="32" viewBox="0 0 44 32" role="img" aria-label="x">
-  <rect width="44" height="32" rx="8" fill="#161B22" stroke="#30363D"/>
-  <g transform="translate(10.0,12.8) scale(0.5625)" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M0.4 0.6h3.6l3.5 4.7 4.15-4.7H15.6L9.2 8.4 15.5 15.4h-3.7L8 10.4 3.55 15.4H0.2l6.5-7.2z" fill="#58A6FF" stroke="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" viewBox="0 0 48 32" role="img" aria-label="X">
+  <rect width="48" height="32" rx="8" fill="#161B22" stroke="#30363D"/>
+  <g transform="translate(11.8,10.5) scale(0.6875)" fill="none" stroke="#E6EDF3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0.4 0.6h3.6l3.5 4.7 4.15-4.7H15.6L9.2 8.4 15.5 15.4h-3.7L8 10.4 3.55 15.4H0.2l6.5-7.2z" fill="#E6EDF3" stroke="none"/>
   </g>
-  <text x="25.0" y="21" fill="#58A6FF" font-size="12" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">x</text>
+  <text x="28.8" y="21" fill="#E6EDF3" font-size="12" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">X</text>
 </svg>

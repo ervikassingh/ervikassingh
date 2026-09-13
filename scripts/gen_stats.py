@@ -137,7 +137,7 @@ def esc(value) -> str:
 def fmt_pct(size: int, total: int) -> str:
     pct = 100 * size / total
     if pct < 0.1:
-        return "&lt;0.1%"
+        return "<0.1%"
     if pct < 1:
         return f"{pct:.1f}%"
     return f"{pct:.0f}%"
@@ -154,7 +154,7 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
     langs = data["top"]
     legend_cols = 4
     legend_rows = max(1, (len(langs) + legend_cols - 1) // legend_cols)
-    footer_y = 198 + legend_rows * 22 + 28
+    footer_y = 174 + legend_rows * 22 + 28
     if height is None:
         height = footer_y + 20
 
@@ -164,13 +164,13 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
         x = 32 + i * (tile_w + 12)
         tiles.append(
             f"""
-  <rect x="{x:.1f}" y="56" width="{tile_w:.1f}" height="72" rx="8" fill="{PANEL}" stroke="{STROKE}"/>
-  <text x="{x + 16:.1f}" y="80" fill="{MUTED}" font-size="11" font-family="{MONO}" letter-spacing="1.2">{esc(label)}</text>
-  <text x="{x + 16:.1f}" y="110" fill="{color}" font-size="28" font-weight="700" font-family="{SANS}">{esc(value)}</text>"""
+  <rect x="{x:.1f}" y="32" width="{tile_w:.1f}" height="72" rx="8" fill="{PANEL}" stroke="{STROKE}"/>
+  <text x="{x + 16:.1f}" y="56" fill="{MUTED}" font-size="11" font-family="{MONO}" letter-spacing="1.2">{esc(label)}</text>
+  <text x="{x + 16:.1f}" y="86" fill="{color}" font-size="28" font-weight="700" font-family="{SANS}">{esc(value)}</text>"""
         )
 
     total = sum(size for _, size in langs) or 1
-    bar_x, bar_y, bar_w, bar_h = 32, 168, width - 64, 14
+    bar_x, bar_y, bar_w, bar_h = 32, 144, width - 64, 14
     cursor = bar_x
     segments = []
     legend = []
@@ -186,7 +186,7 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
         col = i % legend_cols
         row = i // legend_cols
         lx = 32 + col * col_w
-        ly = 198 + row * 22
+        ly = 174 + row * 22
         legend.append(
             f"""
   <rect x="{lx:.1f}" y="{ly:.1f}" width="8" height="8" rx="2" fill="{color}"/>
@@ -199,17 +199,14 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
     extra = f" · {contrib} contribs last year" if contrib is not None else ""
     generated = esc(data["generated"])
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="GitHub stats for {esc(data['login'])}">
-  <rect width="{width}" height="{height}" rx="12" fill="{BG}" stroke="{STROKE}"/>
-  <text x="32" y="34" fill="{MUTED}" font-size="13" font-family="{MONO}">$ gh stats --user={esc(data['login'])} --since=2019</text>
-  <circle cx="{width - 48}" cy="28" r="5" fill="{GREEN}"/>
-  <text x="{width - 38}" y="32" fill="{MUTED}" font-size="11" font-family="{SANS}">ok</text>
+  <rect width="{width}" height="{height}" rx="12" fill="{PANEL}" stroke="{STROKE}"/>
 {''.join(tiles)}
   <defs>
     <clipPath id="langbar">
       <rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="7"/>
     </clipPath>
   </defs>
-  <text x="32" y="156" fill="{MUTED}" font-size="11" font-family="{MONO}" letter-spacing="1.2">LANGUAGE BYTES (OWN REPOS)</text>
+  <text x="32" y="132" fill="{MUTED}" font-size="11" font-family="{MONO}" letter-spacing="1.2">LANGUAGE BYTES (OWN REPOS)</text>
   <rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="7" fill="{PANEL}"/>
   <g clip-path="url(#langbar)">{''.join(segments)}</g>
 {''.join(legend)}
@@ -218,13 +215,30 @@ def render(data: dict, width: int = 880, height: int | None = None) -> str:
 """
 
 
+HEADER_W = 880
+
+
+def write_header() -> None:
+    path = os.path.join(os.path.dirname(OUT) or ".", "stats-header.svg")
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{HEADER_W}" height="56" viewBox="0 0 {HEADER_W} 56" role="img" aria-label="GitHub stats">
+  <rect width="{HEADER_W}" height="56" rx="12" fill="{BG}" stroke="{STROKE}"/>
+  <text x="32" y="35" fill="{TEXT}" font-size="18" font-weight="700" font-family="{SANS}">GitHub stats</text>
+  <text x="{HEADER_W - 32}" y="35" text-anchor="end" fill="{MUTED}" font-size="12" font-family="{SANS}">Live metrics from the GitHub API</text>
+</svg>
+"""
+    with open(path, "w", encoding="utf-8") as handle:
+        handle.write(svg)
+    print(f"wrote {path}")
+
+
 if __name__ == "__main__":
+    os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
+    write_header()
     try:
         stats = collect()
     except Exception as exc:
         print(f"API fetch failed: {exc}", file=sys.stderr)
         sys.exit(1)
-    os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as handle:
         handle.write(render(stats))
     print(f"wrote {OUT}: {stats}")

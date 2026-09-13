@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="402" height="118" viewBox="0 0 402 118" role="img" aria-label="Current focus">
+  <rect width="402" height="118" rx="8" fill="#161B22" stroke="#30363D"/>
+  <text x="16" y="24" fill="#8B949E" font-size="11" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">CURRENT-FOCUS.TXT</text>
+  <circle cx="21" cy="40" r="3.5" fill="#E0234E"/>
+  <text x="32" y="44" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">hedera-backends</text>
+  <circle cx="21" cy="58" r="3.5" fill="#58A6FF"/>
+  <text x="32" y="62" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">nestjs-services</text>
+  <circle cx="21" cy="76" r="3.5" fill="#BC8CFF"/>
+  <text x="32" y="80" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">agent-orchestration</text>
+  <circle cx="21" cy="94" r="3.5" fill="#D29922"/>
+  <text x="32" y="98" fill="#E6EDF3" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">rag-evals</text>
+</svg>

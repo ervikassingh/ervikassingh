@@ -1,5 +1,13 @@
 <p align="center">
-  <img src="./assets/whoami.svg" alt="whoami — vikas singh" />
+  <img src="./assets/whoami-header.svg" alt="About me — backend engineering · AI · Web3" />
+</p>
+<p align="center">
+  <img src="./assets/whoami-identity.svg" alt="vikas singh — Senior Backend Engineer (6+ years)" />
+</p>
+<p align="center">
+  <img src="./assets/whoami-philosophy.svg" alt="Philosophy — Tesler's Theorem" />
+  &nbsp;
+  <img src="./assets/whoami-focus.svg" alt="Current focus — Hedera backends, NestJS services, agent orchestration, RAG evals" />
 </p>
 <p align="center">
   <a href="mailto:mail.ervikassingh@gmail.com"><img src="./assets/pill-email.svg" alt="email" height="32" /></a>
@@ -12,39 +20,67 @@
 </p>
 
 <p align="center">
+  <img src="./assets/stats-header.svg" alt="GitHub stats — live metrics from the GitHub API" />
+</p>
+<p align="center">
   <img src="./assets/stats.svg" alt="GitHub stats for ervikassingh" />
 </p>
 
 <p align="center">
-  <img src="./assets/stack.svg" alt="Stack by domain" />
+  <img src="./assets/stack-header.svg" alt="Technical stack — tools grouped by domain" />
+</p>
+<p align="center">
+  <img src="./assets/stack-backend.svg" alt="Backend stack" />
+  &nbsp;
+  <img src="./assets/stack-data.svg" alt="Data stack" />
+  &nbsp;
+  <img src="./assets/stack-messaging.svg" alt="Messaging stack" />
+</p>
+<p align="center">
+  <img src="./assets/stack-agentic-ai.svg" alt="Agentic AI stack" />
+  &nbsp;
+  <img src="./assets/stack-infra.svg" alt="Infrastructure stack" />
+  &nbsp;
+  <img src="./assets/stack-web3.svg" alt="Web3 stack" />
 </p>
 
 <p align="center">
-  <img src="./assets/log.svg" alt="Career log" />
+  <img src="./assets/log-header.svg" alt="Career timeline — experience across backend and Web3" />
+</p>
+<p align="center">
+  <a href="https://www.hashgraph-group.com/"><img src="./assets/log-hashgraph-group.svg" alt="Web3 Backend Developer — The Hashgraph Group" /></a>
+</p>
+<p align="center">
+  <a href="https://appinventiv.com/"><img src="./assets/log-appinventiv.svg" alt="Software Engineer, Blockchain — Appinventiv" /></a>
+</p>
+<p align="center">
+  <a href="https://www.ebizondigital.com/"><img src="./assets/log-ebizon-digital.svg" alt="Analyst Programmer — EbizON Digital" /></a>
 </p>
 
 <p align="center">
-  <img src="./assets/work.svg" alt="Selected repositories" />
+  <img src="./assets/work-header.svg" alt="Selected work — projects and reusable building blocks" />
 </p>
 <p align="center">
-  <a href="https://github.com/ervikassingh/custom-ai-agent"><img src="./assets/pill-custom-ai-agent.svg" alt="custom-ai-agent" height="32" /></a>
+  <a href="https://github.com/ervikassingh/custom-ai-agent"><img src="./assets/work-custom-ai-agent.svg" alt="custom-ai-agent" /></a>
   &nbsp;
-  <a href="https://github.com/ervikassingh/nestjs-microservices-template"><img src="./assets/pill-nestjs-microservices-template.svg" alt="nestjs-microservices-template" height="32" /></a>
+  <a href="https://github.com/ervikassingh/nestjs-microservices-template"><img src="./assets/work-nestjs-microservices-template.svg" alt="nestjs-microservices-template" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/ervikassingh/nestjs-monolithic-template"><img src="./assets/work-nestjs-monolithic-template.svg" alt="nestjs-monolithic-template" /></a>
   &nbsp;
-  <a href="https://github.com/ervikassingh/nestjs-monolithic-template"><img src="./assets/pill-nestjs-monolithic-template.svg" alt="nestjs-monolithic-template" height="32" /></a>
-  &nbsp;
-  <a href="https://github.com/ervikassingh/prompt-relay-landing"><img src="./assets/pill-prompt-relay.svg" alt="prompt-relay" height="32" /></a>
-  &nbsp;
-  <a href="https://github.com/ervikassingh/nft-market"><img src="./assets/pill-nft-market.svg" alt="nft-market" height="32" /></a>
+  <a href="https://github.com/ervikassingh/prompt-relay-landing"><img src="./assets/work-prompt-relay.svg" alt="prompt-relay" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/ervikassingh/nft-market"><img src="./assets/work-nft-market.svg" alt="nft-market" /></a>
 </p>
 
 <p align="center">
-  <img src="./assets/certs.svg" alt="Certifications" />
+  <img src="./assets/certs-header.svg" alt="Certifications — selected learning milestones" />
 </p>
 <p align="center">
-  <a href="https://certs.hashgraphdev.com/e815d99e-dad3-463e-9553-f2723446c0c6.pdf"><img src="./assets/pill-hashgraph-developer.svg" alt="hashgraph-developer" height="32" /></a>
+  <a href="https://certs.hashgraphdev.com/e815d99e-dad3-463e-9553-f2723446c0c6.pdf"><img src="./assets/cert-hashgraph-developer.svg" alt="Hashgraph Developer" /></a>
   &nbsp;
-  <a href="https://profiles.cyfrin.io/u/ervikassingh/achievements/noir-programming-and-zk-circuits"><img src="./assets/pill-noir-zk-circuits.svg" alt="noir-zk-circuits" height="32" /></a>
+  <a href="https://profiles.cyfrin.io/u/ervikassingh/achievements/noir-programming-and-zk-circuits"><img src="./assets/cert-noir-zk-circuits.svg" alt="Noir + ZK Circuits" /></a>
   &nbsp;
-  <a href="https://profiles.cyfrin.io/u/ervikassingh/achievements/fundamentals-of-zero-knowledge-proofs"><img src="./assets/pill-fundamentals-of-zk-proofs.svg" alt="fundamentals-of-zk-proofs" height="32" /></a>
+  <a href="https://profiles.cyfrin.io/u/ervikassingh/achievements/fundamentals-of-zero-knowledge-proofs"><img src="./assets/cert-fundamentals-of-zk-proofs.svg" alt="Fundamentals of ZK Proofs" /></a>
 </p>
