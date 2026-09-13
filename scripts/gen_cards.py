@@ -33,14 +33,6 @@ def esc(value) -> str:
     )
 
 
-def shell(prompt: str, width: int, height: int, live: str = "ok") -> str:
-    return f"""
-  <rect width="{width}" height="{height}" rx="12" fill="{BG}" stroke="{STROKE}"/>
-  <text x="32" y="34" fill="{MUTED}" font-size="13" font-family="{MONO}">{esc(prompt)}</text>
-  <circle cx="{width - 48}" cy="28" r="5" fill="{GREEN}"/>
-  <text x="{width - 38}" y="32" fill="{MUTED}" font-size="11" font-family="{SANS}">{esc(live)}</text>"""
-
-
 def section_header(title: str, subtitle: str) -> str:
     return f"""  <rect width="{W}" height="56" rx="12" fill="{BG}" stroke="{STROKE}"/>
   <text x="32" y="35" fill="{TEXT}" font-size="18" font-weight="700" font-family="{SANS}">{esc(title)}</text>
@@ -328,11 +320,6 @@ def write_pills() -> None:
     def x_logo(color: str) -> str:
         return f"""    <path d="M0.4 0.6h3.6l3.5 4.7 4.15-4.7H15.6L9.2 8.4 15.5 15.4h-3.7L8 10.4 3.55 15.4H0.2l6.5-7.2z" fill="{color}" stroke="none"/>"""
 
-    def github(color: str) -> str:
-        return f"""    <path fill="{color}" stroke="none" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 3.7c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>"""
-
-    award = """    <circle cx="8" cy="6.4" r="5.2"/>
-    <path d="M4.6 10.4 3.2 16 8 13.6 12.8 16 11.4 10.4"/>"""
     contacts = [
         # (label, icon, accent) — brand-accurate colors on the dark theme
         ("Email", mail, CYAN),
@@ -345,20 +332,6 @@ def write_pills() -> None:
             f"pill-{label.lower()}.svg",
             pill(label, icon, color=color, weight=600, font=SANS),
         )
-    for name in (
-        "custom-ai-agent",
-        "nestjs-microservices-template",
-        "nestjs-monolithic-template",
-        "prompt-relay",
-        "nft-market",
-    ):
-        write(f"pill-{name}.svg", pill(name, github(CYAN)))
-    for name in (
-        "hashgraph-developer",
-        "noir-zk-circuits",
-        "fundamentals-of-zk-proofs",
-    ):
-        write(f"pill-{name}.svg", pill(name, award, color=GOLD))
 
 
 if __name__ == "__main__":

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="182" height="32" viewBox="0 0 182 32" role="img" aria-label="hashgraph-developer">
-  <rect width="182" height="32" rx="8" fill="#161B22" stroke="#30363D"/>
-  <g transform="translate(12.2,10.5) scale(0.6875)" fill="none" stroke="#D29922" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="8" cy="6.4" r="5.2"/>
-    <path d="M4.6 10.4 3.2 16 8 13.6 12.8 16 11.4 10.4"/>
-  </g>
-  <text x="29.2" y="21" fill="#D29922" font-size="12" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">hashgraph-developer</text>
-</svg>
