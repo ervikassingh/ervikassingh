@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="108" height="32" viewBox="0 0 108 32" role="img" aria-label="Portfolio">
-  <rect width="108" height="32" rx="8" fill="#161B22" stroke="#30363D"/>
-  <g transform="translate(12.2,10.5) scale(0.6875)" fill="none" stroke="#79C0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="8" cy="8" r="7.2"/>
-    <path d="M0.8 8h14.4"/>
-    <path d="M8 0.8c2.1 2.3 3.2 4.6 3.2 7.2s-1.1 4.9-3.2 7.2C5.9 12.9 4.8 10.6 4.8 8s1.1-4.9 3.2-7.2z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="32" viewBox="0 0 112 32" role="img" aria-label="Portfolio">
+  <rect width="112" height="32" rx="8" fill="#161B22" stroke="#30363D"/>
+  <g transform="translate(12.2,9.0) scale(0.8750)" fill="none" stroke="#8B949E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1" y="1.5" width="14" height="13" rx="2"/>
+    <path d="M1 5.2h14M4 3.3h.1M6.5 3.3h.1M9 3.3h.1"/>
   </g>
-  <text x="29.2" y="21" fill="#79C0FF" font-size="12" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Portfolio</text>
+  <text x="33.2" y="21" fill="#8B949E" font-size="12" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">Portfolio</text>
 </svg>

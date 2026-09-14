@@ -14,9 +14,11 @@
   &nbsp;
   <a href="https://ervikassingh.com"><img src="./assets/pill-portfolio.svg" alt="portfolio" height="32" /></a>
   &nbsp;
-  <a href="https://linkedin.com/in/ervikassingh"><img src="./assets/pill-linkedin.svg" alt="linkedin" height="32" /></a>
+  <a href="https://linkedin.com/in/ervikassingh"><img src="./assets/pill-linkedin.svg" alt="LinkedIn" height="32" /></a>
   &nbsp;
-  <a href="https://x.com/wiekkii"><img src="./assets/pill-x.svg" alt="x" height="32" /></a>
+  <a href="https://x.com/wiekkii"><img src="./assets/pill-x.svg" alt="X" height="32" /></a>
+  &nbsp;
+  <a href="https://instagram.com/wiekki"><img src="./assets/pill-instagram.svg" alt="Instagram" height="32" /></a>
 </p>
 
 <p align="center">

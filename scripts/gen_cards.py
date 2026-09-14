@@ -279,10 +279,10 @@ def cert_card(slug: str, title: str, issuer: str, when: str, color: str) -> str:
 PILL_H = 32
 FONT_SIZE = 12
 TEXT_Y = 21
-# Same cap-height and baseline as the 12px label.
+# Keep the icons prominent while leaving a little more breathing room.
 ICON_SRC = 16
-ICON_SIZE = 11
-ICON_GAP = 6
+ICON_SIZE = 14
+ICON_GAP = 7
 CHAR_W = 7.4
 PAD_X = 12
 
@@ -302,7 +302,7 @@ def pill(
 ) -> str:
     w = width if width is not None else pill_width(label)
     scale = ICON_SIZE / ICON_SRC
-    # Center the icon + label block horizontally and vertically.
+    # Center the larger icon + label block horizontally and vertically.
     content_w = ICON_SIZE + ICON_GAP + len(label) * CHAR_W
     icon_x = (w - content_w) / 2
     icon_y = (PILL_H - ICON_SIZE) / 2
@@ -319,29 +319,29 @@ def pill(
 
 
 def write_pills() -> None:
+    monochrome = MUTED
     mail = """    <rect x="0.5" y="1.5" width="15" height="13" rx="2"/>
     <path d="M0.5 4.2 8 10.8l7.5-6.6"/>"""
-    globe = """    <circle cx="8" cy="8" r="7.2"/>
-    <path d="M0.8 8h14.4"/>
-    <path d="M8 0.8c2.1 2.3 3.2 4.6 3.2 7.2s-1.1 4.9-3.2 7.2C5.9 12.9 4.8 10.6 4.8 8s1.1-4.9 3.2-7.2z"/>"""
-    def linkedin(color: str) -> str:
-        return f"""    <rect x="0" y="0" width="16" height="16" rx="2.6" fill="{color}" stroke="none"/>
-    <text x="8" y="12.4" text-anchor="middle" fill="{PANEL}" stroke="none" font-size="10" font-weight="700" font-family="{SANS}">in</text>"""
-
-    def x_logo(color: str) -> str:
-        return f"""    <path d="M0.4 0.6h3.6l3.5 4.7 4.15-4.7H15.6L9.2 8.4 15.5 15.4h-3.7L8 10.4 3.55 15.4H0.2l6.5-7.2z" fill="{color}" stroke="none"/>"""
+    website = """    <rect x="1" y="1.5" width="14" height="13" rx="2"/>
+    <path d="M1 5.2h14M4 3.3h.1M6.5 3.3h.1M9 3.3h.1"/>"""
+    linkedin = """    <path d="M2.2 5.8v7.8M2.2 2.6v.1M5.8 13.6V5.8m0 3.7c0-2.1 1.1-3.7 3.1-3.7 1.9 0 2.9 1.2 2.9 3.6v4.2"/>"""
+    twitter = """    <path d="M14.8 3.1a6.1 6.1 0 0 1-1.75.48A3.05 3.05 0 0 0 14.39 1.9a6.1 6.1 0 0 1-1.93.74A3.04 3.04 0 0 0 7.2 4.72c0 .24.03.47.08.69A8.63 8.63 0 0 1 1 2.24a3.04 3.04 0 0 0 .94 4.06 3.04 3.04 0 0 1-1.38-.38v.04a3.04 3.04 0 0 0 2.44 2.98 3.07 3.07 0 0 1-1.37.05 3.04 3.04 0 0 0 2.84 2.11A6.1 6.1 0 0 1 .7 12.4a8.6 8.6 0 0 0 4.66 1.37c5.6 0 8.66-4.64 8.66-8.66v-.39a6.2 6.2 0 0 0 1.53-1.61z"/>"""
+    instagram = """    <rect x="0.7" y="0.7" width="14.6" height="14.6" rx="4.2"/>
+    <circle cx="8" cy="8" r="3.2"/>
+    <circle cx="12.2" cy="3.8" r="0.8"/>"""
 
     contacts = [
-        # (label, icon, accent) — brand-accurate colors on the dark theme
-        ("Email", mail, CYAN),
-        ("Portfolio", globe, SKY),
-        ("LinkedIn", linkedin("#4A9EEF"), "#4A9EEF"),
-        ("X", x_logo(TEXT), TEXT),
+        # Icons and labels intentionally use one muted color to match the reference.
+        ("Email", mail),
+        ("Portfolio", website),
+        ("LinkedIn", linkedin),
+        ("X", twitter),
+        ("Instagram", instagram),
     ]
-    for label, icon, color in contacts:
+    for label, icon in contacts:
         write(
             f"pill-{label.lower()}.svg",
-            pill(label, icon, color=color, weight=600, font=SANS),
+            pill(label, icon, color=monochrome, weight=600, font=SANS),
         )
 
 
