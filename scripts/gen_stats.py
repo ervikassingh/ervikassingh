@@ -220,10 +220,13 @@ HEADER_W = 880
 
 def write_header() -> None:
     path = os.path.join(os.path.dirname(OUT) or ".", "stats-header.svg")
+    accent_end = 32 + 112
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{HEADER_W}" height="56" viewBox="0 0 {HEADER_W} 56" role="img" aria-label="GitHub stats">
-  <rect width="{HEADER_W}" height="56" rx="12" fill="{BG}" stroke="{STROKE}"/>
-  <text x="32" y="35" fill="{TEXT}" font-size="18" font-weight="700" font-family="{SANS}">GitHub stats</text>
-  <text x="{HEADER_W - 32}" y="35" text-anchor="end" fill="{MUTED}" font-size="12" font-family="{SANS}">Metrics from GitHub</text>
+  <path d="M32 48H{HEADER_W - 32}" stroke="{STROKE}"/>
+  <path d="M32 48H{accent_end}" stroke="{CYAN}" stroke-width="2"/>
+  <circle cx="32" cy="48" r="3" fill="{CYAN}"/>
+  <text x="32" y="29" fill="{TEXT}" font-size="18" font-weight="700" font-family="{SANS}">GitHub stats</text>
+  <text x="{HEADER_W - 32}" y="29" text-anchor="end" fill="{MUTED}" font-size="12" font-family="{SANS}">Metrics from GitHub</text>
 </svg>
 """
     with open(path, "w", encoding="utf-8") as handle:

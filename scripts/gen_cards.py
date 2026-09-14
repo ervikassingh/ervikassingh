@@ -34,9 +34,20 @@ def esc(value) -> str:
 
 
 def section_header(title: str, subtitle: str) -> str:
-    return f"""  <rect width="{W}" height="56" rx="12" fill="{BG}" stroke="{STROKE}"/>
-  <text x="32" y="35" fill="{TEXT}" font-size="18" font-weight="700" font-family="{SANS}">{esc(title)}</text>
-  <text x="{W - 32}" y="35" text-anchor="end" fill="{MUTED}" font-size="12" font-family="{SANS}">{esc(subtitle)}</text>"""
+    # Keep the accent tied to the visible heading rather than using a fixed card-like width.
+    heading_widths = {
+        "About me": 76,
+        "Technical stack": 132,
+        "Career timeline": 138,
+        "Selected work": 122,
+        "Certifications": 126,
+    }
+    accent_end = 32 + heading_widths.get(title, len(title) * 10)
+    return f"""  <path d="M32 48H{W - 32}" stroke="{STROKE}"/>
+  <path d="M32 48H{accent_end}" stroke="{CYAN}" stroke-width="2"/>
+  <circle cx="32" cy="48" r="3" fill="{CYAN}"/>
+  <text x="32" y="29" fill="{TEXT}" font-size="18" font-weight="700" font-family="{SANS}">{esc(title)}</text>
+  <text x="{W - 32}" y="29" text-anchor="end" fill="{MUTED}" font-size="12" font-family="{SANS}">{esc(subtitle)}</text>"""
 
 
 def wrap(text: str, width: int) -> list[str]:
@@ -80,7 +91,7 @@ def whoami_identity() -> str:
     <tspan fill="{CYAN}" font-size="22" font-weight="700">vikas singh</tspan>
     <tspan fill="{MUTED}" font-size="14">  — Senior Backend Engineer (6+ years)</tspan>
   </text>
-  <text x="16" y="56" fill="{TEXT}" font-size="13" font-family="{SANS}">NestJS, distributed systems, and agentic AI</text>
+  <text x="16" y="56" fill="{TEXT}" font-size="13" font-family="{SANS}">NestJS, Distributed Systems, and Agentic AI</text>
   <text x="16" y="76" fill="{MUTED}" font-size="12" font-family="{SANS}">Dehradun, India · open to remote · ervikassingh.com</text>
 </svg>
 """
