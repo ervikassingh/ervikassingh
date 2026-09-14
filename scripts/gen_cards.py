@@ -36,11 +36,11 @@ def esc(value) -> str:
 def section_header(title: str, subtitle: str) -> str:
     # Keep the accent tied to the visible heading rather than using a fixed card-like width.
     heading_widths = {
-        "About me": 76,
-        "Technical stack": 132,
-        "Career timeline": 138,
-        "Selected work": 122,
-        "Certifications": 126,
+        "About me": 89,
+        "Technical stack": 137,
+        "Career timeline": 137,
+        "Selected work": 128,
+        "Certifications": 123,
     }
     accent_end = 32 + heading_widths.get(title, len(title) * 10)
     return f"""  <path d="M32 48H{W - 32}" stroke="{STROKE}"/>
